@@ -7,8 +7,8 @@ import (
 )
 
 var AMajor model.Chord = model.Chord{
-	Id:           model.AMajor,
-	Name:         data.ChordNames[model.AMajor],
+	Id:           "amaj",
+	Type:         model.Major,
 	Abbreviation: data.Abbreviations[model.Major],
 	Root:         notes.Notes[notes.A],
 	Notes: []model.Note{

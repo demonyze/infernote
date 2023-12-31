@@ -6,10 +6,10 @@ import (
 	"github.com/demonyze/infernote/internal/model"
 )
 
-var A7th model.Chord = model.Chord{
-	Id:               "a7th",
-	Type:             model.Seventh,
-	AlternativeNames: data.AlternativeNames[model.Seventh],
+var AMaj7th model.Chord = model.Chord{
+	Id:               "amaj7th",
+	Type:             model.Major7th,
+	AlternativeNames: data.AlternativeNames[model.Major7th],
 	Abbreviation:     data.Abbreviations[model.Seventh],
 	Root:             notes.Notes[notes.A],
 	Notes: []model.Note{

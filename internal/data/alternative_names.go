@@ -2,7 +2,7 @@ package data
 
 import "github.com/demonyze/infernote/internal/model"
 
-var AlternativeNames = map[model.AlternativeName]model.AlternativeNamesType{
-	model.Chord5th: map[model.Language][]string{model.EN: {"power chord"}},
-	model.Chord7th: map[model.Language][]string{model.EN: {"Dominant 7th", "Major Minor 7th"}},
+var AlternativeNames = map[model.ChordType]map[model.Language][]string{
+	model.Fith:    {model.EN: {"power chord"}},
+	model.Seventh: {model.EN: {"Dominant 7th", "Major Minor 7th"}},
 }

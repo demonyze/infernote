@@ -6,5 +6,6 @@ import (
 )
 
 var Chords []model.Chord = []model.Chord{
+	a.AMaj7th,
 	a.AMajor,
 }

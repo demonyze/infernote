@@ -7,8 +7,9 @@ import (
 )
 
 var AMinor model.Chord = model.Chord{
-	Id:           model.AMinor,
-	Name:         data.ChordNames[model.AMinor],
+	Id: "amin",
+	// Name:         data.ChordNames[model.AMinor],
+	Type:         model.Minor,
 	Abbreviation: data.Abbreviations[model.Minor],
 	Root:         notes.Notes[notes.A],
 	Notes: []model.Note{

@@ -6,15 +6,15 @@ import (
 	"github.com/demonyze/infernote/internal/model"
 )
 
-var A7th model.Chord = model.Chord{
-	Id:               "a7th",
-	Type:             model.Seventh,
-	AlternativeNames: data.AlternativeNames[model.Seventh],
-	Abbreviation:     data.Abbreviations[model.Seventh],
+var AMin7th model.Chord = model.Chord{
+	Id:               "amin7th",
+	Type:             model.Minor7th,
+	AlternativeNames: data.AlternativeNames[model.Minor7th],
+	Abbreviation:     data.Abbreviations[model.Minor7th],
 	Root:             notes.Notes[notes.A],
 	Notes: []model.Note{
 		notes.Notes[notes.A],
-		notes.Notes[notes.CSharp],
+		notes.Notes[notes.C],
 		notes.Notes[notes.E],
 		notes.Notes[notes.G],
 	},
@@ -22,13 +22,15 @@ var A7th model.Chord = model.Chord{
 		{
 			Tuning: data.Tuning[model.Standard],
 			Positions: []string{
-				"x-0-2-0-2-0",
-				"x-0-2-0-2-3",
-				"5-7-5-6-5-5",
-				"x-x-7-9-8-9",
-				"x-12-14-12-14-12",
-				"17-19-17-18-17-17",
-				"x-x-19-21-20-21",
+				"x-0-2-0-1-0",
+				"x-0-2-0-1-3",
+				"x-0-2-2-1-3",
+				"5-7-5-5-5-5",
+				"x-x-7-9-8-8",
+				"x-12-10-12-10-12",
+				"x-12-14-12-13-12",
+				"17-19-17-17-17-17",
+				"x-x-19-21-20-20",
 			},
 		},
 	},
