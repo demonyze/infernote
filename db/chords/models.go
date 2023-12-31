@@ -4,10 +4,61 @@
 
 package chords
 
-import ()
+import (
+	"database/sql/driver"
+	"fmt"
+)
+
+type Type string
+
+const (
+	TypeMajor Type = "Major"
+	TypeMinor Type = "Minor"
+	Type7     Type = "7"
+	Type5     Type = "5"
+	TypeDim   Type = "dim"
+)
+
+func (e *Type) Scan(src interface{}) error {
+	switch s := src.(type) {
+	case []byte:
+		*e = Type(s)
+	case string:
+		*e = Type(s)
+	default:
+		return fmt.Errorf("unsupported scan type for Type: %T", src)
+	}
+	return nil
+}
+
+type NullType struct {
+	Type  Type
+	Valid bool // Valid is true if Type is not NULL
+}
+
+// Scan implements the Scanner interface.
+func (ns *NullType) Scan(value interface{}) error {
+	if value == nil {
+		ns.Type, ns.Valid = "", false
+		return nil
+	}
+	ns.Valid = true
+	return ns.Type.Scan(value)
+}
+
+// Value implements the driver Valuer interface.
+func (ns NullType) Value() (driver.Value, error) {
+	if !ns.Valid {
+		return nil, nil
+	}
+	return string(ns.Type), nil
+}
 
 type Chord struct {
-	ID   int64
-	Name string
-	Root string
+	ID     int64
+	Name   string
+	Root   string
+	Type   Type
+	Guitar [][]byte
+	Piano  [][]byte
 }

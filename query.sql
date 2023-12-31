@@ -8,16 +8,19 @@ ORDER BY name;
 
 -- name: CreateChord :one
 INSERT INTO chords (
-  name, root
+  name, root, type, guitar, piano
 ) VALUES (
-  $1, $2
+  $1, $2, $3, $4, $5
 )
 RETURNING *;
 
 -- name: UpdateChord :exec
 UPDATE chords
   set name = $2,
-  root = $3
+  root = $3,
+  type = $4,
+  guitar = $5,
+  piano = $6
 WHERE id = $1;
 
 -- name: DeleteChord :exec

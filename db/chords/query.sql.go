@@ -11,22 +11,38 @@ import (
 
 const createChord = `-- name: CreateChord :one
 INSERT INTO chords (
-  name, root
+  name, root, type, guitar, piano
 ) VALUES (
-  $1, $2
+  $1, $2, $3, $4, $5
 )
-RETURNING id, name, root
+RETURNING id, name, root, type, guitar, piano
 `
 
 type CreateChordParams struct {
-	Name string
-	Root string
+	Name   string
+	Root   string
+	Type   Type
+	Guitar [][]byte
+	Piano  [][]byte
 }
 
 func (q *Queries) CreateChord(ctx context.Context, arg CreateChordParams) (Chord, error) {
-	row := q.db.QueryRow(ctx, createChord, arg.Name, arg.Root)
+	row := q.db.QueryRow(ctx, createChord,
+		arg.Name,
+		arg.Root,
+		arg.Type,
+		arg.Guitar,
+		arg.Piano,
+	)
 	var i Chord
-	err := row.Scan(&i.ID, &i.Name, &i.Root)
+	err := row.Scan(
+		&i.ID,
+		&i.Name,
+		&i.Root,
+		&i.Type,
+		&i.Guitar,
+		&i.Piano,
+	)
 	return i, err
 }
 
@@ -41,19 +57,26 @@ func (q *Queries) DeleteChord(ctx context.Context, id int64) error {
 }
 
 const getChord = `-- name: GetChord :one
-SELECT id, name, root FROM chords
+SELECT id, name, root, type, guitar, piano FROM chords
 WHERE id = $1 LIMIT 1
 `
 
 func (q *Queries) GetChord(ctx context.Context, id int64) (Chord, error) {
 	row := q.db.QueryRow(ctx, getChord, id)
 	var i Chord
-	err := row.Scan(&i.ID, &i.Name, &i.Root)
+	err := row.Scan(
+		&i.ID,
+		&i.Name,
+		&i.Root,
+		&i.Type,
+		&i.Guitar,
+		&i.Piano,
+	)
 	return i, err
 }
 
 const listChords = `-- name: ListChords :many
-SELECT id, name, root FROM chords
+SELECT id, name, root, type, guitar, piano FROM chords
 ORDER BY name
 `
 
@@ -66,7 +89,14 @@ func (q *Queries) ListChords(ctx context.Context) ([]Chord, error) {
 	var items []Chord
 	for rows.Next() {
 		var i Chord
-		if err := rows.Scan(&i.ID, &i.Name, &i.Root); err != nil {
+		if err := rows.Scan(
+			&i.ID,
+			&i.Name,
+			&i.Root,
+			&i.Type,
+			&i.Guitar,
+			&i.Piano,
+		); err != nil {
 			return nil, err
 		}
 		items = append(items, i)
@@ -80,17 +110,30 @@ func (q *Queries) ListChords(ctx context.Context) ([]Chord, error) {
 const updateChord = `-- name: UpdateChord :exec
 UPDATE chords
   set name = $2,
-  root = $3
+  root = $3,
+  type = $4,
+  guitar = $5,
+  piano = $6
 WHERE id = $1
 `
 
 type UpdateChordParams struct {
-	ID   int64
-	Name string
-	Root string
+	ID     int64
+	Name   string
+	Root   string
+	Type   Type
+	Guitar [][]byte
+	Piano  [][]byte
 }
 
 func (q *Queries) UpdateChord(ctx context.Context, arg UpdateChordParams) error {
-	_, err := q.db.Exec(ctx, updateChord, arg.ID, arg.Name, arg.Root)
+	_, err := q.db.Exec(ctx, updateChord,
+		arg.ID,
+		arg.Name,
+		arg.Root,
+		arg.Type,
+		arg.Guitar,
+		arg.Piano,
+	)
 	return err
 }

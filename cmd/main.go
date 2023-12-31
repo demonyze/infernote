@@ -27,8 +27,10 @@ func main() {
 	queries := chords.New(conn)
 
 	ch, err := queries.CreateChord(context.Background(), chords.CreateChordParams{
-		Name: "C",
+		Name: "Cmajor",
 		Root: "C",
+		Type: chords.TypeMajor,
+		// Guitar: {},
 	})
 	if err != nil {
 		fmt.Println(err)
