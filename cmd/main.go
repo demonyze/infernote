@@ -9,6 +9,10 @@ import (
 )
 
 func main() {
+
+	var fileName string = utils.GetArg(0, "chords.json")
+	var path string = utils.GetArg(1, "sample")
+
 	fmt.Println("🔥 Generating chords... 🎵")
 
 	chords, err := data.GenerateChords()
@@ -18,8 +22,8 @@ func main() {
 	}
 
 	exportError := utils.Export(utils.ExportParams[[]model.Chord]{
-		Path:     "sample",
-		FileName: "chords.json",
+		FileName: fileName,
+		Path:     path,
 		Data:     chords,
 	})
 	if exportError != nil {

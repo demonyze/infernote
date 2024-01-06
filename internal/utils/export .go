@@ -41,7 +41,7 @@ func Export[T exportType](exportData ExportParams[T]) error {
 	}
 
 	size := fmt.Sprintf("(%d bytes)", t)
-	fmt.Println("💾 files is saved at" + " " + filePath + " " + size)
+	fmt.Println("💾 File is saved at" + " " + filePath + " " + size)
 
 	return nil
 }

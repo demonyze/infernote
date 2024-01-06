@@ -11,7 +11,6 @@ import (
 )
 
 func TestExport(t *testing.T) {
-	// create temporary directory for testing
 	tmpDir, err := os.MkdirTemp("", "export_test")
 	if err != nil {
 		t.Fatalf("Failed to create temporary directory: %v", err)
