@@ -11,7 +11,11 @@ func main() {
 
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
-		return c.JSON(http.StatusOK, data.Chords)
+		chords, err := data.Init()
+		if err != nil {
+			return c.JSON(http.StatusBadRequest, "error")
+		}
+		return c.JSON(http.StatusOK, chords)
 	})
 	e.Logger.Fatal(e.Start(":1323"))
 }
