@@ -1,21 +1,17 @@
 package main
 
 import (
-	"net/http"
+	"fmt"
 
-	data "github.com/demonyze/infernote/internal/data/chords"
-	"github.com/labstack/echo/v4"
+	"github.com/demonyze/infernote/internal/data"
 )
 
 func main() {
-
-	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		chords, err := data.Init()
-		if err != nil {
-			return c.JSON(http.StatusBadRequest, "error")
-		}
-		return c.JSON(http.StatusOK, chords)
-	})
-	e.Logger.Fatal(e.Start(":1323"))
+	fmt.Println("🔥 Generating chords... 🎵")
+	err := data.ExportData("sample", "chords.json")
+	if err != nil {
+		fmt.Println("🚫", err)
+		return
+	}
+	fmt.Println("🎉 Files succesfully exported")
 }

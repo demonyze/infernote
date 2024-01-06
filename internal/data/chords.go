@@ -7,10 +7,10 @@ import (
 	"github.com/demonyze/infernote/internal/utils"
 )
 
-func Init() ([]model.Chord, error) {
+func GenerateChords() ([]model.Chord, error) {
 	var chords []model.Chord
 
-	data, err := utils.ImportChordsDbGuitar()
+	data, err := utils.Import[model.ChordsDbGuitarImport]("assets/chords-db/guitar.json")
 	if err != nil {
 		return chords, err
 	}
