@@ -8,15 +8,13 @@ import (
 	"github.com/demonyze/infernote/internal/model"
 )
 
-type exportType = []model.Chord
-
-type ExportParams[T exportType] struct {
+type ExportParams[T []model.Chord | map[string]model.Chord] struct {
 	Path     string
 	FileName string
 	Data     T
 }
 
-func Export[T exportType](exportData ExportParams[T]) error {
+func Export[T []model.Chord | map[string]model.Chord](exportData ExportParams[T]) error {
 	chordsBytes, err := json.Marshal(exportData.Data)
 	if err != nil {
 		return err

@@ -15,16 +15,18 @@ func main() {
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
-	chords, err := data.GenerateChords()
+	chordsData, err := utils.Import[model.ChordsDbGuitarImport]("assets/chords-db/guitar.json")
 	if err != nil {
 		fmt.Println("🚫", err)
 		return
 	}
 
-	exportError := utils.Export(utils.ExportParams[[]model.Chord]{
+	chordsMap := data.ChordsAsMap(chordsData)
+
+	exportError := utils.Export(utils.ExportParams[map[string]model.Chord]{
 		FileName: fileName,
 		Path:     path,
-		Data:     chords,
+		Data:     chordsMap,
 	})
 	if exportError != nil {
 		fmt.Println("🚫", exportError)
