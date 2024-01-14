@@ -1,17 +1,10 @@
-package data
+package generator
 
 import (
 	"fmt"
 
 	"github.com/demonyze/infernote/internal/model"
 	"github.com/demonyze/infernote/internal/utils"
-)
-
-type Structure = string
-
-const (
-	AsArray Structure = "asArray"
-	AsMap   Structure = "asMap"
 )
 
 func createChord(chordImport model.ChordsDbGuitarChord) model.Chord {
