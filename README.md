@@ -1,6 +1,6 @@
 # 🔥 Infernote
 
-Generate chords data from different rources in a custom JSON file.
+Generate chords data from different resources in a custom JSON file.
 
 ⚠️ Still heavily work in progress.
 
