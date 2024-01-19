@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"encoding/json"
 	"os"
 	"testing"
 
@@ -10,42 +9,69 @@ import (
 )
 
 func TestImport(t *testing.T) {
-	tmpFile, err := os.CreateTemp("", "import_test.json")
-	if err != nil {
-		t.Fatalf("Failed to create temporary file: %v", err)
-	}
-	defer os.Remove(tmpFile.Name())
-	defer tmpFile.Close()
+	t.Run("Valid Data", func(t *testing.T) {
+		// Test Import function with valid ChordsDbGuitarImport data
+		validData := []byte(`{"keys":["C"],"chords":{"C":[{"key":"C","suffix":"maj","positions":[]}]}}`)
 
-	sampleData := model.ChordsDbGuitarImport{
-		Keys: []string{"A", "B", "C"},
-		Chords: map[string][]model.ChordsDbGuitarChord{
-			"A": {model.ChordsDbGuitarChord{
-				Key:    "A",
-				Suffix: "major",
-				Positions: []model.ChordsDbGuitarPosition{
-					{
-						Frets: []int{4, 5, 4, 5, 6},
-					},
-				},
-			}},
-		},
-	}
+		tmpfile, err := os.CreateTemp("", "testChordsDbGuitarImport*.json")
+		assert.NoError(t, err, "Error creating temporary file")
+		defer os.Remove(tmpfile.Name())
+		defer tmpfile.Close()
+		tmpfile.Write(validData)
 
-	jsonBytes, err := json.Marshal(sampleData)
-	if err != nil {
-		t.Fatalf("Failed to marshal sample data: %v", err)
-	}
+		importedData, err := Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		assert.NoError(t, err, "Unexpected error during Import")
+		assert.NotNil(t, importedData, "Imported data is nil")
+	})
 
-	_, err = tmpFile.Write(jsonBytes)
-	if err != nil {
-		t.Fatalf("Failed to write to temporary file: %v", err)
-	}
+	t.Run("Invalid Path", func(t *testing.T) {
+		// Test Import function with invalid path
+		_, err := Import[model.ChordsDbGuitarImport]("nonexistent/path.json")
+		assert.Error(t, err, "Expected error for invalid path")
+	})
 
-	importedData, err := Import[model.ChordsDbGuitarImport](tmpFile.Name())
-	assert.NoError(t, err, "Import should not return an error")
+	t.Run("Invalid JSON", func(t *testing.T) {
+		// Test Import function with invalid JSON
+		invalidData := []byte(`invalid json`)
 
-	assert.Equal(t, sampleData, importedData, "Imported data should match the sample data")
+		tmpfile, err := os.CreateTemp("", "testChordsDbGuitarImportInvalid*.json")
+		assert.NoError(t, err, "Error creating temporary file")
+		defer os.Remove(tmpfile.Name())
+		defer tmpfile.Close()
+		tmpfile.Write(invalidData)
 
-	t.Log("Import test passed successfully")
+		_, err = Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		assert.Error(t, err, "Expected error for invalid JSON")
+	})
+
+	t.Run("JSON Unmarshal Error", func(t *testing.T) {
+		// Test Import function with JSON unmarshal error
+		invalidJSON := []byte(`{"keys":["C"],"chords":{"C":[{"key":"C","suffix":"maj","positions":[]}]},}`)
+
+		tmpfile, err := os.CreateTemp("", "testChordsDbGuitarImportInvalidJSON*.json")
+		assert.NoError(t, err, "Error creating temporary file")
+		defer os.Remove(tmpfile.Name())
+		defer tmpfile.Close()
+		tmpfile.Write(invalidJSON)
+
+		_, err = Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		assert.Error(t, err, "Expected error for invalid JSON unmarshal")
+	})
+
+	t.Run("ReadAll Error", func(t *testing.T) {
+		// Test Import function with ReadAll error
+		tmpfile, err := os.CreateTemp("", "testChordsDbGuitarImportReadAllError*.json")
+		assert.NoError(t, err, "Error creating temporary file")
+		defer os.Remove(tmpfile.Name())
+		defer tmpfile.Close()
+
+		// Make the file unreadable to simulate the ReadAll error
+		file, err := os.Open(tmpfile.Name())
+		assert.NoError(t, err, "Error opening temporary file")
+		file.Close() // Close the file to release the handle
+		os.Chmod(tmpfile.Name(), 0200)
+
+		_, err = Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		assert.Error(t, err, "Expected error for io.ReadAll")
+	})
 }

@@ -1,4 +1,4 @@
-# 🔥 Infernote
+# 🔥 Infernote 🎵
 
 Generate chords data from different resources in a custom JSON file.
 
