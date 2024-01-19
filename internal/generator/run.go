@@ -8,7 +8,13 @@ import (
 )
 
 func Run(fileName string, path string, output string) {
-	chordsData, err := utils.Import[model.ChordsDbGuitarImport]("assets/chords-db/guitar.json")
+	chordRocksImport, err := utils.Import[model.ChordRocksGuitarImport]("resources/greed/output.json")
+	if err != nil {
+		fmt.Println("🚫", err)
+		return
+	}
+
+	chordsDbImport, err := utils.Import[model.ChordsDbGuitarImport]("resources/chords-db/guitar.json")
 	if err != nil {
 		fmt.Println("🚫", err)
 		return
@@ -17,7 +23,10 @@ func Run(fileName string, path string, output string) {
 	switch output {
 	case "array":
 		{
-			chordsArray := ChordsAsArray(chordsData)
+			chordsArray := ChordsAsArray(CreateChordParams{
+				chordsDbImport,
+				chordRocksImport,
+			})
 			exportError := utils.Export(utils.ExportParams[[]model.Chord]{
 				FileName: fileName,
 				Path:     path,
@@ -30,7 +39,10 @@ func Run(fileName string, path string, output string) {
 		}
 	default:
 		{
-			chordsMap := ChordsAsMap(chordsData)
+			chordsMap := ChordsAsMap(CreateChordParams{
+				chordsDbImport,
+				chordRocksImport,
+			})
 			exportError := utils.Export(utils.ExportParams[map[string]model.Chord]{
 				FileName: fileName,
 				Path:     path,

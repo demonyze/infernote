@@ -8,9 +8,9 @@ import (
 	"github.com/demonyze/infernote/internal/model"
 )
 
-type importType = model.ChordsDbGuitarImport
-
-func Import[I importType](path string) (I, error) {
+func Import[
+	I model.ChordsDbGuitarImport | model.ChordRocksGuitarImport,
+](path string) (I, error) {
 	var dataImport I
 
 	jsonFile, err := os.Open(path)

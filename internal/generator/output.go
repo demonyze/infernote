@@ -7,37 +7,45 @@ import (
 	"github.com/demonyze/infernote/internal/utils"
 )
 
-func createChord(chordImport model.ChordsDbGuitarChord) model.Chord {
+type CreateChordParams struct {
+	chordsDbImport   model.ChordsDbGuitarImport
+	chordRocksImport model.ChordRocksGuitarImport
+}
+
+func createChord(
+	chordsDbChord model.ChordsDbGuitarChord,
+	chordsRockChord model.ChordRocksGuitarChord,
+) model.Chord {
 	return model.Chord{
-		Id:              utils.CreateId(chordImport.Key, chordImport.Suffix),
-		Name:            fmt.Sprintf("%s %s", chordImport.Key, chordImport.Suffix),
-		GuitarPositions: chordImport.Positions,
-		Root:            model.Note{Name: chordImport.Key},
-		Type:            chordImport.Suffix,
+		Id:              utils.CreateId(chordsDbChord.Key, chordsDbChord.Suffix),
+		Name:            fmt.Sprintf("%s %s", chordsDbChord.Key, chordsDbChord.Suffix),
+		GuitarPositions: chordsDbChord.Positions,
+		Root:            model.Note{Name: chordsDbChord.Key},
+		Type:            chordsDbChord.Suffix,
+		Notes:           utils.NotesfromStringNames(chordsRockChord.Notes),
 	}
 }
 
-func ChordsAsMap(dataImport model.ChordsDbGuitarImport) map[string]model.Chord {
+func ChordsAsMap(params CreateChordParams) map[string]model.Chord {
 	chords := make(map[string]model.Chord)
-
-	for _, key := range dataImport.Keys {
-		for _, chordImport := range dataImport.Chords[key] {
-			id := utils.CreateId(chordImport.Key, chordImport.Suffix)
-			chords[id] = createChord(chordImport)
+	for _, key := range params.chordsDbImport.Keys {
+		for _, chordsDbChord := range params.chordsDbImport.Chords[key] {
+			id := utils.CreateId(chordsDbChord.Key, chordsDbChord.Suffix)
+			chordRocksChord := params.chordRocksImport[key][chordsDbChord.Suffix]
+			chords[id] = createChord(chordsDbChord, chordRocksChord)
 		}
 	}
-
 	return chords
 }
 
-func ChordsAsArray(dataImport model.ChordsDbGuitarImport) []model.Chord {
+func ChordsAsArray(params CreateChordParams) []model.Chord {
 	var chords []model.Chord
-
-	for _, key := range dataImport.Keys {
-		for _, chordImport := range dataImport.Chords[key] {
-			chords = append(chords, createChord(chordImport))
+	for _, key := range params.chordsDbImport.Keys {
+		for _, chordsDbChord := range params.chordsDbImport.Chords[key] {
+			id := utils.CreateId(chordsDbChord.Key, chordsDbChord.Suffix)
+			chordRocksChord := params.chordRocksImport[key][id]
+			chords = append(chords, createChord(chordsDbChord, chordRocksChord))
 		}
 	}
-
 	return chords
 }
