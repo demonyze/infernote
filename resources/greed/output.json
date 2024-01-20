@@ -1,0 +1,2210 @@
+{
+  "A": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "A, C♯, E, G, B, D",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "A, E",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "A, C♯, E, F♯",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "A, C♯, E, F♯, B",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "A, C♯, E, G",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "A, C♯, D♯, G",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "A, D, E, G",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "A, C♯, E, G, B",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "A, C♯, F",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "A, C, D♯",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "A, C, D♯, F♯",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "A, C, E, G, B, D",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "A, C, E, F♯",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "A, C, E, G",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "A, C, D♯, G",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "A, C, E, G, B",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "A, C♯, E, G♯, B, D",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "A, C♯, E, G♯",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "A, C♯, F, G",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "A, C♯, E, G♯, B",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "A, C♯, E",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "A, C, E",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "A, C, E, G♯",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "A, C, E, G♯, B",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "A, B, E",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "A, D, E",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "A#": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "A♯, D, F, G♯, C, D♯",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "A♯, F",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "A♯, D, F, G",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "A♯, D, F, G, C",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "A♯, D, F, G♯",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "A♯, D, E, G♯",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "A♯, D♯, F, G♯",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "A♯, D, F, G♯, C",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "A♯, D, F♯",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "A♯, C♯, E",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "A♯, C♯, E, G",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "A♯, C♯, F, G♯, C, D♯",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "A♯, C♯, F, G",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "A♯, C♯, F, G♯",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "A♯, C♯, E, G♯",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "A♯, C♯, F, G♯, C",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "A♯, D, F, A, C, D♯",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "A♯, D, F, A",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "A♯, D, F♯, G♯",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "A♯, D, F, A, C",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "A♯, D, F",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "A♯, C♯, F",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "A♯, C♯, F, A",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "A♯, C♯, F, A, C",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "A♯, C, F",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "A♯, D♯, F",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "B": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "B, D♯, F♯, A, C♯, E",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "B, F♯",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "B, D♯, F♯, G♯",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "B, D♯, F♯, G♯, C♯",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "B, D♯, F♯, A",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "B, D♯, F, A",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "B, E, F♯, A",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "B, D♯, F♯, A, C♯",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "B, D♯, G",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "B, D, F",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "B, D, F, G♯",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "B, D, F♯, A, C♯, E",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "B, D, F♯, G♯",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "B, D, F♯, A",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "B, D, F, A",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "B, D, F♯, A, C♯",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "B, D♯, F♯, A♯, C♯, E",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "B, D♯, F♯, A♯",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "B, D♯, G, A",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "B, D♯, F♯, A♯, C♯",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "B, D♯, F♯",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "B, D, F♯",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "B, D, F♯, A♯",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "B, D, F♯, A♯, C♯",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "B, C♯, F♯",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "B, E, F♯",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "C": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "C, E, G, A♯, D, F",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "C, G",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "C, E, G, A",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "C, E, G, A, D",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "C, E, G, A♯",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "C, E, F♯, A♯",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "C, F, G, A♯",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "C, E, G, A♯, D",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "C, E, G♯",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "C, D♯, F♯",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "C, D♯, F♯, A",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "C, D♯, G, A♯, D, F",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "C, D♯, G, A",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "C, D♯, G, A♯",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "C, D♯, F♯, A♯",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "C, D♯, G, A♯, D",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "C, E, G, B, D, F",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "C, E, G, B",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "C, E, G♯, A♯",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "C, E, G, B, D",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "C, E, G",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "C, D♯, G",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "C, D♯, G, B",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "C, D♯, G, B, D",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "C, D, G",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "C, F, G",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "C#": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "C♯, F, G♯, B, D♯, F♯",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "C♯, G♯",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "C♯, F, G♯, A♯",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "C♯, F, G♯, A♯, D♯",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "C♯, F, G♯, B",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "C♯, F, G, B",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "C♯, F♯, G♯, B",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "C♯, F, G♯, B, D♯",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "C♯, F, A",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "C♯, E, G",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "C♯, E, G, A♯",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "C♯, E, G♯, B, D♯, F♯",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "C♯, E, G♯, A♯",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "C♯, E, G♯, B",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "C♯, E, G, B",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "C♯, E, G♯, B, D♯",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "C♯, F, G♯, C, D♯, F♯",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "C♯, F, G♯, C",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "C♯, F, A, B",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "C♯, F, G♯, C, D♯",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "C♯, F, G♯",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "C♯, E, G♯",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "C♯, E, G♯, C",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "C♯, E, G♯, C, D♯",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "C♯, D♯, G♯",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "C♯, F♯, G♯",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "D": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "D, F♯, A, C, E, G",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "D, A",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "D, F♯, A, B",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "D, F♯, A, B, E",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "D, F♯, A, C",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "D, F♯, G♯, C",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "D, G, A, C",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "D, F♯, A, C, E",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "D, F♯, A♯",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "D, F, G♯",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "D, F, G♯, B",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "D, F, A, C, E, G",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "D, F, A, B",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "D, F, A, C",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "D, F, G♯, C",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "D, F, A, C, E",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "D, F♯, A, C♯, E, G",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "D, F♯, A, C♯",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "D, F♯, A♯, C",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "D, F♯, A, C♯, E",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "D, F♯, A",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "D, F, A",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "D, F, A, C♯",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "D, F, A, C♯, E",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "D, E, A",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "D, G, A",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "D#": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "D♯, G, A♯, C♯, F, G♯",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "D♯, A♯",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "D♯, G, A♯, C",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "D♯, G, A♯, C, F",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "D♯, G, A♯, C♯",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "D♯, G, A, C♯",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "D♯, G♯, A♯, C♯",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "D♯, G, A♯, C♯, F",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "D♯, G, B",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "D♯, F♯, A",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "D♯, F♯, A, C",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "D♯, F♯, A♯, C♯, F, G♯",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "D♯, F♯, A♯, C",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "D♯, F♯, A♯, C♯",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "D♯, F♯, A, C♯",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "D♯, F♯, A♯, C♯, F",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "D♯, G, A♯, D, F, G♯",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "D♯, G, A♯, D",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "D♯, G, B, C♯",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "D♯, G, A♯, D, F",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "D♯, G, A♯",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "D♯, F♯, A♯",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "D♯, F♯, A♯, D",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "D♯, F♯, A♯, D, F",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "D♯, F, A♯",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "D♯, G♯, A♯",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "E": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "E, G♯, B, D, F♯, A",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "E, B",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "E, G♯, B, C♯",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "E, G♯, B, C♯, F♯",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "E, G♯, B, D",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "E, G♯, A♯, D",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "E, A, B, D",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "E, G♯, B, D, F♯",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "E, G♯, C",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "E, G, A♯",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "E, G, A♯, C♯",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "E, G, B, D, F♯, A",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "E, G, B, C♯",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "E, G, B, D",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "E, G, A♯, D",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "E, G, B, D, F♯",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "E, G♯, B, D♯, F♯, A",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "E, G♯, B, D♯",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "E, G♯, C, D",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "E, G♯, B, D♯, F♯",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "E, G♯, B",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "E, G, B",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "E, G, B, D♯",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "E, G, B, D♯, F♯",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "E, F♯, B",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "E, A, B",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "F": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "F, A, C, D♯, G, A♯",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "F, C",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "F, A, C, D",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "F, A, C, D, G",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "F, A, C, D♯",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "F, A, B, D♯",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "F, A♯, C, D♯",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "F, A, C, D♯, G",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "F, A, C♯",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "F, G♯, B",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "F, G♯, B, D",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "F, G♯, C, D♯, G, A♯",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "F, G♯, C, D",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "F, G♯, C, D♯",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "F, G♯, B, D♯",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "F, G♯, C, D♯, G",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "F, A, C, E, G, A♯",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "F, A, C, E",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "F, A, C♯, D♯",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "F, A, C, E, G",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "F, A, C",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "F, G♯, C",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "F, G♯, C, E",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "F, G♯, C, E, G",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "F, G, C",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "F, A♯, C",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "F#": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "F♯, A♯, C♯, E, G♯, B",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "F♯, C♯",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "F♯, A♯, C♯, D♯",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "F♯, A♯, C♯, D♯, G♯",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "F♯, A♯, C♯, E",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "F♯, A♯, C, E",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "F♯, B, C♯, E",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "F♯, A♯, C♯, E, G♯",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "F♯, A♯, D",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "F♯, A, C",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "F♯, A, C, D♯",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "F♯, A, C♯, E, G♯, B",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "F♯, A, C♯, D♯",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "F♯, A, C♯, E",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "F♯, A, C, E",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "F♯, A, C♯, E, G♯",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "F♯, A♯, C♯, F, G♯, B",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "F♯, A♯, C♯, F",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "F♯, A♯, D, E",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "F♯, A♯, C♯, F, G♯",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "F♯, A♯, C♯",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "F♯, A, C♯",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "F♯, A, C♯, F",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "F♯, A, C♯, F, G♯",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "F♯, G♯, C♯",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "F♯, B, C♯",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "G": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "G, B, D, F, A, C",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "G, D",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "G, B, D, E",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "G, B, D, E, A",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "G, B, D, F",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "G, B, C♯, F",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "G, C, D, F",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "G, B, D, F, A",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "G, B, D♯",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "G, A♯, C♯",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "G, A♯, C♯, E",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "G, A♯, D, F, A, C",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "G, A♯, D, E",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "G, A♯, D, F",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "G, A♯, C♯, F",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "G, A♯, D, F, A",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "G, B, D, F♯, A, C",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "G, B, D, F♯",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "G, B, D♯, F",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "G, B, D, F♯, A",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "G, B, D",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "G, A♯, D",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "G, A♯, D, F♯",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "G, A♯, D, F♯, A",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "G, A, D",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "G, C, D",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  },
+  "G#": {
+    "11": {
+      "internal_suffix_name": "11th",
+      "notes": "G♯, C, D♯, F♯, A♯, C♯",
+      "degrees": "1, 3, 5, ♭7, 9, 11",
+      "abbrevation": "11",
+      "alternative_names": ""
+    },
+    "5": {
+      "internal_suffix_name": "5th",
+      "notes": "G♯, D♯",
+      "degrees": "1, 5",
+      "abbrevation": "5",
+      "alternative_names": "power chord"
+    },
+    "6": {
+      "internal_suffix_name": "6th",
+      "notes": "G♯, C, D♯, F",
+      "degrees": "1, 3, 5, 6",
+      "abbrevation": "6",
+      "alternative_names": ""
+    },
+    "69": {
+      "internal_suffix_name": "6th-add-9",
+      "notes": "G♯, C, D♯, F, A♯",
+      "degrees": "1, 3, 5, 6, 9",
+      "abbrevation": "6add9, 6/9",
+      "alternative_names": "6th Add 9th, 6th 9"
+    },
+    "7": {
+      "internal_suffix_name": "7th",
+      "notes": "G♯, C, D♯, F♯",
+      "degrees": "1, 3, 5, ♭7",
+      "abbrevation": "7",
+      "alternative_names": "Dominant 7th, Major Minor 7th"
+    },
+    "7b5": {
+      "internal_suffix_name": "7th-flat-5",
+      "notes": "G♯, C, D, F♯",
+      "degrees": "1, 3, ♭5, ♭7",
+      "abbrevation": "7♭5",
+      "alternative_names": "Dominant 7th Flat 5, 7th ♭5"
+    },
+    "7sus4": {
+      "internal_suffix_name": "7th-suspended-4th",
+      "notes": "G♯, C♯, D♯, F♯",
+      "degrees": "1, 4, 5, ♭7",
+      "abbrevation": "7sus4",
+      "alternative_names": "Dominant 7th Suspended 4th "
+    },
+    "9": {
+      "internal_suffix_name": "9th",
+      "notes": "G♯, C, D♯, F♯, A♯",
+      "degrees": "1, 3, 5, ♭7, 9",
+      "abbrevation": "9",
+      "alternative_names": ""
+    },
+    "aug": {
+      "internal_suffix_name": "augmented",
+      "notes": "G♯, C, E",
+      "degrees": "1, 3, ♯5",
+      "abbrevation": "aug, +",
+      "alternative_names": ""
+    },
+    "dim": {
+      "internal_suffix_name": "diminished",
+      "notes": "G♯, B, D",
+      "degrees": "1, ♭3, ♭5",
+      "abbrevation": "dim, °",
+      "alternative_names": ""
+    },
+    "dim7": {
+      "internal_suffix_name": "diminished-7th",
+      "notes": "G♯, B, D, F",
+      "degrees": "1, ♭3, ♭5, ♭♭7",
+      "abbrevation": "dim7",
+      "alternative_names": ""
+    },
+    "m11": {
+      "internal_suffix_name": "minor-11th",
+      "notes": "G♯, B, D♯, F♯, A♯, C♯",
+      "degrees": "1, ♭3, 5, ♭7, 9, 11",
+      "abbrevation": "m11, min11",
+      "alternative_names": ""
+    },
+    "m6": {
+      "internal_suffix_name": "minor-6th",
+      "notes": "G♯, B, D♯, F",
+      "degrees": "1, ♭3, 5, 6",
+      "abbrevation": "min6, m6, min maj6",
+      "alternative_names": "Minor Major 6"
+    },
+    "m7": {
+      "internal_suffix_name": "minor-7th",
+      "notes": "G♯, B, D♯, F♯",
+      "degrees": "1, ♭3, 5, ♭7",
+      "abbrevation": "m7, min7",
+      "alternative_names": ""
+    },
+    "m7b5": {
+      "internal_suffix_name": "minor-7th-flat-5th",
+      "notes": "G♯, B, D, F♯",
+      "degrees": "1, ♭3, ♭5, ♭7",
+      "abbrevation": "m7♭5",
+      "alternative_names": "Half Diminished Minor 7"
+    },
+    "m9": {
+      "internal_suffix_name": "minor-9th",
+      "notes": "G♯, B, D♯, F♯, A♯",
+      "degrees": "1, ♭3, 5, ♭7, 9",
+      "abbrevation": "m9",
+      "alternative_names": ""
+    },
+    "maj11": {
+      "internal_suffix_name": "major-11th",
+      "notes": "G♯, C, D♯, G, A♯, C♯",
+      "degrees": "1, 3, 5, 7, 9, 11",
+      "abbrevation": "maj11, M11",
+      "alternative_names": ""
+    },
+    "maj7": {
+      "internal_suffix_name": "major-7th",
+      "notes": "G♯, C, D♯, G",
+      "degrees": "1, 3, 5, 7",
+      "abbrevation": "maj7, M7",
+      "alternative_names": ""
+    },
+    "maj7#5": {
+      "internal_suffix_name": "7th-sharp-5",
+      "notes": "G♯, C, E, F♯",
+      "degrees": "1, 3, ♯5, ♭7",
+      "abbrevation": "7♯5",
+      "alternative_names": "Dominant 7th ♯5"
+    },
+    "maj9": {
+      "internal_suffix_name": "major-9th",
+      "notes": "G♯, C, D♯, G, A♯",
+      "degrees": "1, 3, 5, 7, 9",
+      "abbrevation": "maj9",
+      "alternative_names": ""
+    },
+    "major": {
+      "internal_suffix_name": "major",
+      "notes": "G♯, C, D♯",
+      "degrees": "1, 3, 5",
+      "abbrevation": "maj, M",
+      "alternative_names": ""
+    },
+    "minor": {
+      "internal_suffix_name": "minor",
+      "notes": "G♯, B, D♯",
+      "degrees": "1, ♭3, 5",
+      "abbrevation": "min, m",
+      "alternative_names": ""
+    },
+    "mmaj7": {
+      "internal_suffix_name": "minor-major-7th",
+      "notes": "G♯, B, D♯, G",
+      "degrees": "1, ♭3, 5, 7",
+      "abbrevation": "minmaj7, mmaj7, mmaj7, mM7",
+      "alternative_names": "Minor Sharp 7, Minor ♯7"
+    },
+    "mmaj9": {
+      "internal_suffix_name": "minor-major-9th",
+      "notes": "G♯, B, D♯, G, A♯",
+      "degrees": "1, ♭3, 5, 7, 9",
+      "abbrevation": "minmaj9, mM9, min(maj9), m(maj9)",
+      "alternative_names": ""
+    },
+    "sus2": {
+      "internal_suffix_name": "suspended-2nd",
+      "notes": "G♯, A♯, D♯",
+      "degrees": "1, 2, 5",
+      "abbrevation": "sus2",
+      "alternative_names": ""
+    },
+    "sus4": {
+      "internal_suffix_name": "suspended-4th",
+      "notes": "G♯, C♯, D♯",
+      "degrees": "1, 4, 5",
+      "abbrevation": "sus4, sus",
+      "alternative_names": "Suspended"
+    }
+  }
+}

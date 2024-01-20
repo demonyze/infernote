@@ -14,7 +14,7 @@ func TestGetArg(t *testing.T) {
 	defer func() { os.Args = oldArgs }()
 
 	// Mock command line arguments
-	os.Args = []string{"program", "arg1", "arg2", "arg3"}
+	os.Args = []string{"program", "arg1", "arg2", "arg3", ""}
 
 	t.Run("ValidIndex", func(t *testing.T) {
 		index := 1 // Use index 1 for the second element
@@ -28,6 +28,16 @@ func TestGetArg(t *testing.T) {
 
 	t.Run("InvalidIndex", func(t *testing.T) {
 		index := 3
+		fallback := "defaultFallback"
+		expectedFallback := fallback
+
+		result := GetArg(index, fallback)
+
+		assert.Equal(t, expectedFallback, result, "Fallback value does not match")
+	})
+
+	t.Run("Fallback", func(t *testing.T) {
+		index := 4
 		fallback := "defaultFallback"
 		expectedFallback := fallback
 

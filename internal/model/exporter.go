@@ -1,31 +1,34 @@
-package utils
+package model
 
 import (
 	"encoding/json"
 	"fmt"
 	"os"
-
-	"github.com/demonyze/infernote/internal/model"
 )
 
-type ExportParams[T []model.Chord | map[string]model.Chord] struct {
-	Path     string
-	FileName string
-	Data     T
+type Exporter[T []Chord | map[string]Chord] interface {
+	Export(data T) error
 }
 
-func Export[T []model.Chord | map[string]model.Chord](exportData ExportParams[T]) error {
-	chordsBytes, err := json.Marshal(exportData.Data)
+type Export[
+	T []Chord | map[string]Chord,
+] struct {
+	Path     string
+	FileName string
+}
+
+func (exp Export[T]) Export(data T) error {
+	chordsBytes, err := json.Marshal(data)
 	if err != nil {
 		return err
 	}
 
-	createFolderError := os.MkdirAll(exportData.Path, os.ModePerm)
+	createFolderError := os.MkdirAll(exp.Path, os.ModePerm)
 	if createFolderError != nil {
 		return createFolderError
 	}
 
-	filePath := fmt.Sprintf("%s/%s", exportData.Path, exportData.FileName)
+	filePath := fmt.Sprintf("%s/%s", exp.Path, exp.FileName)
 
 	file, err := os.Create(filePath)
 	if err != nil {

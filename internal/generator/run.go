@@ -4,43 +4,50 @@ import (
 	"fmt"
 
 	"github.com/demonyze/infernote/internal/model"
-	"github.com/demonyze/infernote/internal/utils"
 )
 
-func Run(fileName string, path string, output string) {
-	chordsData, err := utils.Import[model.ChordsDbGuitarImport]("assets/chords-db/guitar.json")
+func Run(output string, runner model.Runner) error {
+	chordRocksImport, err := runner.ChordRocksGuitarImporter.Import()
 	if err != nil {
 		fmt.Println("🚫", err)
-		return
+		return err
+	}
+
+	chordsDbImport, err := runner.ChordsDbGuitarImporter.Import()
+	if err != nil {
+		fmt.Println("🚫", err)
+		return err
 	}
 
 	switch output {
 	case "array":
 		{
-			chordsArray := ChordsAsArray(chordsData)
-			exportError := utils.Export(utils.ExportParams[[]model.Chord]{
-				FileName: fileName,
-				Path:     path,
-				Data:     chordsArray,
+			chordsArray := ChordsAsArray(CreateChordParams{
+				chordsDbImport,
+				chordRocksImport,
 			})
+
+			exportError := runner.ChordsArrayExporter.Export(chordsArray)
 			if exportError != nil {
 				fmt.Println("🚫", exportError)
-				return
+				return exportError
 			}
 		}
 	default:
 		{
-			chordsMap := ChordsAsMap(chordsData)
-			exportError := utils.Export(utils.ExportParams[map[string]model.Chord]{
-				FileName: fileName,
-				Path:     path,
-				Data:     chordsMap,
+			chordsMap := ChordsAsMap(CreateChordParams{
+				chordsDbImport,
+				chordRocksImport,
 			})
+
+			exportError := runner.ChordsMapExporter.Export(chordsMap)
 			if exportError != nil {
 				fmt.Println("🚫", exportError)
-				return
+				return exportError
 			}
 		}
 
 	}
+
+	return nil
 }

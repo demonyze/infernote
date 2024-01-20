@@ -19,3 +19,14 @@ type ChordsDbGuitarPosition struct {
 	BaseFret int   `json:"baseFret"`
 	Midi     []int `json:"midi"`
 }
+
+// Chord Rocks
+type ChordRocksGuitarChord struct {
+	InitialSuffixName string `json:"internal_suffix_name"`
+	Notes             string `json:"notes"`
+	Degrees           string `json:"degrees"`
+	Abbrevation       string `json:"abbrevation"`
+	AlternativeNames  string `json:"alternative_names"`
+}
+type ChordRocksGuitarChordMap = map[string]ChordRocksGuitarChord
+type ChordRocksGuitarImport = map[string]ChordRocksGuitarChordMap
