@@ -17,10 +17,10 @@ func main() {
 	fmt.Println("🔥 Generating chords... 🎵")
 
 	// Importer
-	chordRocksGuitarImporter := model.Importer[model.ChordRocksGuitarImport]{
+	chordRocksGuitarImporter := model.Import[model.ChordRocksGuitarImport]{
 		Path: "resources/greed/output.json",
 	}
-	chordDbGuitarImporter := model.Importer[model.ChordsDbGuitarImport]{
+	chordDbGuitarImporter := model.Import[model.ChordsDbGuitarImport]{
 		Path: "resources/chords-db/guitar.json",
 	}
 

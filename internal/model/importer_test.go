@@ -18,7 +18,7 @@ func TestImport(t *testing.T) {
 		defer tmpfile.Close()
 		tmpfile.Write(validData)
 
-		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+		chordsDbGuitarImporter := Import[ChordsDbGuitarImport]{
 			Path: tmpfile.Name(),
 		}
 
@@ -29,7 +29,7 @@ func TestImport(t *testing.T) {
 
 	t.Run("Invalid Path", func(t *testing.T) {
 		// Test Import function with invalid path
-		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+		chordsDbGuitarImporter := Import[ChordsDbGuitarImport]{
 			Path: "nonexistent/path.json",
 		}
 		_, err := chordsDbGuitarImporter.Import()
@@ -46,7 +46,7 @@ func TestImport(t *testing.T) {
 		defer tmpfile.Close()
 		tmpfile.Write(invalidData)
 
-		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+		chordsDbGuitarImporter := Import[ChordsDbGuitarImport]{
 			Path: tmpfile.Name(),
 		}
 		_, err = chordsDbGuitarImporter.Import()
@@ -63,7 +63,7 @@ func TestImport(t *testing.T) {
 		defer tmpfile.Close()
 		tmpfile.Write(invalidJSON)
 
-		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+		chordsDbGuitarImporter := Import[ChordsDbGuitarImport]{
 			Path: tmpfile.Name(),
 		}
 		_, err = chordsDbGuitarImporter.Import()
@@ -83,7 +83,7 @@ func TestImport(t *testing.T) {
 		file.Close() // Close the file to release the handle
 		os.Chmod(tmpfile.Name(), 0200)
 
-		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+		chordsDbGuitarImporter := Import[ChordsDbGuitarImport]{
 			Path: tmpfile.Name(),
 		}
 		_, err = chordsDbGuitarImporter.Import()

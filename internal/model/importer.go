@@ -8,11 +8,17 @@ import (
 
 type Importer[
 	T ChordsDbGuitarImport | ChordRocksGuitarImport,
+] interface {
+	Import() (T, error)
+}
+
+type Import[
+	T ChordsDbGuitarImport | ChordRocksGuitarImport,
 ] struct {
 	Path string
 }
 
-func (imp Importer[T]) Import() (T, error) {
+func (imp Import[T]) Import() (T, error) {
 	var dataImport T
 
 	jsonFile, err := os.Open(imp.Path)
