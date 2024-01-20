@@ -4,20 +4,19 @@ import (
 	"fmt"
 
 	"github.com/demonyze/infernote/internal/model"
-	"github.com/demonyze/infernote/internal/utils"
 )
 
-func Run(fileName string, path string, output string) {
-	chordRocksImport, err := utils.Import[model.ChordRocksGuitarImport]("resources/greed/output.json")
+func Run(output string, runner model.Runner) error {
+	chordRocksImport, err := runner.ChordRocksGuitarImporter.Import()
 	if err != nil {
 		fmt.Println("🚫", err)
-		return
+		return err
 	}
 
-	chordsDbImport, err := utils.Import[model.ChordsDbGuitarImport]("resources/chords-db/guitar.json")
+	chordsDbImport, err := runner.ChordsDbGuitarImporter.Import()
 	if err != nil {
 		fmt.Println("🚫", err)
-		return
+		return err
 	}
 
 	switch output {
@@ -27,14 +26,11 @@ func Run(fileName string, path string, output string) {
 				chordsDbImport,
 				chordRocksImport,
 			})
-			exportError := utils.Export(utils.ExportParams[[]model.Chord]{
-				FileName: fileName,
-				Path:     path,
-				Data:     chordsArray,
-			})
+
+			exportError := runner.ChordsArrayExporter.Export(chordsArray)
 			if exportError != nil {
 				fmt.Println("🚫", exportError)
-				return
+				return exportError
 			}
 		}
 	default:
@@ -43,16 +39,15 @@ func Run(fileName string, path string, output string) {
 				chordsDbImport,
 				chordRocksImport,
 			})
-			exportError := utils.Export(utils.ExportParams[map[string]model.Chord]{
-				FileName: fileName,
-				Path:     path,
-				Data:     chordsMap,
-			})
+
+			exportError := runner.ChordsMapExporter.Export(chordsMap)
 			if exportError != nil {
 				fmt.Println("🚫", exportError)
-				return
+				return exportError
 			}
 		}
 
 	}
+
+	return nil
 }

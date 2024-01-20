@@ -1,4 +1,4 @@
-package utils
+package model
 
 import (
 	"encoding/json"
@@ -6,7 +6,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/demonyze/infernote/internal/model"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -17,20 +16,19 @@ func TestExport(t *testing.T) {
 	}
 	defer os.RemoveAll(tmpDir)
 
-	testData := []model.Chord{
+	testData := []Chord{
 		{
 			Id:   "00",
 			Name: "Test",
 		},
 	}
 
-	exportParams := ExportParams[[]model.Chord]{
-		Path:     tmpDir,
+	chordsExporter := Export[[]Chord]{
 		FileName: "test_export.json",
-		Data:     testData,
+		Path:     tmpDir,
 	}
 
-	err = Export(exportParams)
+	err = chordsExporter.Export(testData)
 	assert.NoError(t, err, "Export should not return an error")
 
 	filePath := filepath.Join(tmpDir, "test_export.json")
@@ -39,7 +37,7 @@ func TestExport(t *testing.T) {
 	fileContent, err := os.ReadFile(filePath)
 	assert.NoError(t, err, "Failed to read exported file")
 
-	var exportedData []model.Chord
+	var exportedData []Chord
 	err = json.Unmarshal(fileContent, &exportedData)
 	assert.NoError(t, err, "Failed to unmarshal exported data")
 

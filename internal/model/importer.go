@@ -1,19 +1,21 @@
-package utils
+package model
 
 import (
 	"encoding/json"
 	"io"
 	"os"
-
-	"github.com/demonyze/infernote/internal/model"
 )
 
-func Import[
-	I model.ChordsDbGuitarImport | model.ChordRocksGuitarImport,
-](path string) (I, error) {
-	var dataImport I
+type Importer[
+	T ChordsDbGuitarImport | ChordRocksGuitarImport,
+] struct {
+	Path string
+}
 
-	jsonFile, err := os.Open(path)
+func (imp Importer[T]) Import() (T, error) {
+	var dataImport T
+
+	jsonFile, err := os.Open(imp.Path)
 	if err != nil {
 		return dataImport, err
 	}

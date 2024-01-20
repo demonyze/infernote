@@ -1,10 +1,9 @@
-package utils
+package model
 
 import (
 	"os"
 	"testing"
 
-	"github.com/demonyze/infernote/internal/model"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -19,14 +18,21 @@ func TestImport(t *testing.T) {
 		defer tmpfile.Close()
 		tmpfile.Write(validData)
 
-		importedData, err := Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+			Path: tmpfile.Name(),
+		}
+
+		importedData, err := chordsDbGuitarImporter.Import()
 		assert.NoError(t, err, "Unexpected error during Import")
 		assert.NotNil(t, importedData, "Imported data is nil")
 	})
 
 	t.Run("Invalid Path", func(t *testing.T) {
 		// Test Import function with invalid path
-		_, err := Import[model.ChordsDbGuitarImport]("nonexistent/path.json")
+		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+			Path: "nonexistent/path.json",
+		}
+		_, err := chordsDbGuitarImporter.Import()
 		assert.Error(t, err, "Expected error for invalid path")
 	})
 
@@ -40,7 +46,10 @@ func TestImport(t *testing.T) {
 		defer tmpfile.Close()
 		tmpfile.Write(invalidData)
 
-		_, err = Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+			Path: tmpfile.Name(),
+		}
+		_, err = chordsDbGuitarImporter.Import()
 		assert.Error(t, err, "Expected error for invalid JSON")
 	})
 
@@ -54,7 +63,10 @@ func TestImport(t *testing.T) {
 		defer tmpfile.Close()
 		tmpfile.Write(invalidJSON)
 
-		_, err = Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+			Path: tmpfile.Name(),
+		}
+		_, err = chordsDbGuitarImporter.Import()
 		assert.Error(t, err, "Expected error for invalid JSON unmarshal")
 	})
 
@@ -71,7 +83,10 @@ func TestImport(t *testing.T) {
 		file.Close() // Close the file to release the handle
 		os.Chmod(tmpfile.Name(), 0200)
 
-		_, err = Import[model.ChordsDbGuitarImport](tmpfile.Name())
+		chordsDbGuitarImporter := Importer[ChordsDbGuitarImport]{
+			Path: tmpfile.Name(),
+		}
+		_, err = chordsDbGuitarImporter.Import()
 		assert.Error(t, err, "Expected error for io.ReadAll")
 	})
 }
