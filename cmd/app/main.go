@@ -12,6 +12,7 @@ func main() {
 
 	var fileName string = utils.GetArg(0, "chords.json")
 	var path string = utils.GetArg(1, "sample")
+	var language string = utils.GetArg(2, "en")
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
@@ -22,8 +23,12 @@ func main() {
 	chordDbGuitarImporter := model.Import[model.ChordsDbGuitarImport]{
 		Path: "resources/chords-db/guitar.json",
 	}
+	languageImporter := model.Import[model.LanguageImport]{
+		Path: fmt.Sprintf("lang/%s.json", language),
+	}
 
-	chordsMapExporter := model.Export[map[string]model.Chord]{
+	// Exporter
+	exporter := model.Export[model.Infernote]{
 		FileName: fileName,
 		Path:     path,
 	}
@@ -31,8 +36,9 @@ func main() {
 	runner := model.Runner{
 		ChordsDbGuitarImporter:   chordDbGuitarImporter,
 		ChordRocksGuitarImporter: chordRocksGuitarImporter,
+		LanguageImporter:         languageImporter,
 
-		ChordsMapExporter: chordsMapExporter,
+		InfernoteExporter: exporter,
 	}
 
 	generator.Run(runner)

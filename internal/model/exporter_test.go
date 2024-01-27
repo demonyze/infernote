@@ -16,19 +16,28 @@ func TestExport(t *testing.T) {
 	}
 	defer os.RemoveAll(tmpDir)
 
-	testData := []Chord{
-		{
-			Id:   "00",
-			Name: "Test",
+	testData := Infernote{
+		Language: EN,
+		Types: map[string]ChordType{
+			"maj": {
+				Id:   "maj",
+				Name: "Major",
+			},
+		},
+		Chords: map[string]Chord{
+			"cmaj": {
+				Id:   "cmaj",
+				Name: "C Major",
+			},
 		},
 	}
 
-	chordsExporter := Export[[]Chord]{
+	exporter := Export[Infernote]{
 		FileName: "test_export.json",
 		Path:     tmpDir,
 	}
 
-	err = chordsExporter.Export(testData)
+	err = exporter.Export(testData)
 	assert.NoError(t, err, "Export should not return an error")
 
 	filePath := filepath.Join(tmpDir, "test_export.json")
@@ -37,7 +46,7 @@ func TestExport(t *testing.T) {
 	fileContent, err := os.ReadFile(filePath)
 	assert.NoError(t, err, "Failed to read exported file")
 
-	var exportedData []Chord
+	var exportedData Infernote
 	err = json.Unmarshal(fileContent, &exportedData)
 	assert.NoError(t, err, "Failed to unmarshal exported data")
 

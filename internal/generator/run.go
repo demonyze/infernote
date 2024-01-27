@@ -24,7 +24,21 @@ func Run(runner model.Runner) error {
 		chordRocksImport,
 	})
 
-	exportError := runner.ChordsMapExporter.Export(chordsMap)
+	languageImport, err := runner.LanguageImporter.Import()
+	if err != nil {
+		fmt.Println("🚫", err)
+		return err
+	}
+
+	types := Types(languageImport.Types)
+
+	infernote := model.Infernote{
+		Language: languageImport.Language,
+		Types:    types,
+		Chords:   chordsMap,
+	}
+
+	exportError := runner.InfernoteExporter.Export(infernote)
 	if exportError != nil {
 		fmt.Println("🚫", exportError)
 		return exportError

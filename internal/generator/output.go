@@ -38,14 +38,13 @@ func ChordsAsMap(params CreateChordParams) map[string]model.Chord {
 	return chords
 }
 
-func ChordsAsArray(params CreateChordParams) []model.Chord {
-	var chords []model.Chord
-	for _, key := range params.chordsDbImport.Keys {
-		for _, chordsDbChord := range params.chordsDbImport.Chords[key] {
-			id := utils.CreateId(chordsDbChord.Key, chordsDbChord.Suffix)
-			chordRocksChord := params.chordRocksImport[key][id]
-			chords = append(chords, createChord(chordsDbChord, chordRocksChord))
+func Types(data map[string]string) map[string]model.ChordType {
+	types := make(map[string]model.ChordType)
+	for key, value := range data {
+		types[key] = model.ChordType{
+			Id:   key,
+			Name: value,
 		}
 	}
-	return chords
+	return types
 }

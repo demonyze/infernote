@@ -6,12 +6,12 @@ import (
 	"os"
 )
 
-type Exporter[T []Chord | map[string]Chord] interface {
+type Exporter[T Infernote] interface {
 	Export(data T) error
 }
 
 type Export[
-	T []Chord | map[string]Chord,
+	T Infernote,
 ] struct {
 	Path     string
 	FileName string
