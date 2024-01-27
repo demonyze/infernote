@@ -82,9 +82,7 @@ func TestRun(t *testing.T) {
 	FileName := "output.json"
 	Path := ""
 
-	chordsArrayExporterSuccess := ExportMockSuccess[[]model.Chord]{FileName, Path}
 	chordsMapExporterSuccess := ExportMockSuccess[map[string]model.Chord]{FileName, Path}
-	chordsArrayExporterError := ExportMockError[[]model.Chord]{FileName, Path}
 	chordsMapExporterError := ExportMockError[map[string]model.Chord]{FileName, Path}
 
 	chordRocksGuitarImporterSuccess := ImportMockSuccess[model.ChordRocksGuitarImport]{
@@ -100,23 +98,13 @@ func TestRun(t *testing.T) {
 		Path: chordsDbFile.Name(),
 	}
 
-	t.Run("Successful Run - Array", func(t *testing.T) {
-		runner := model.Runner{
-			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
-			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
-			ChordsArrayExporter:      chordsArrayExporterSuccess,
-		}
-		err := Run("array", runner)
-		assert.NoError(t, err, "Expected no error for a successful run")
-	})
-
-	t.Run("Successful Run - Map", func(t *testing.T) {
+	t.Run("Successful Run", func(t *testing.T) {
 		runner := model.Runner{
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			ChordsMapExporter:        chordsMapExporterSuccess,
 		}
-		err := Run("map", runner)
+		err := Run(runner)
 		assert.NoError(t, err, "Expected no error for a successful run")
 	})
 
@@ -124,17 +112,15 @@ func TestRun(t *testing.T) {
 		runner1 := model.Runner{
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterError,
-			ChordsArrayExporter:      chordsArrayExporterSuccess,
 		}
-		err1 := Run("array", runner1)
+		err1 := Run(runner1)
 		assert.Error(t, err1, "Expected error")
 
 		runner2 := model.Runner{
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
-			ChordsArrayExporter:      chordsArrayExporterError,
 		}
-		err2 := Run("array", runner2)
+		err2 := Run(runner2)
 		assert.Error(t, err2, "Expected error")
 
 		runner3 := model.Runner{
@@ -142,7 +128,7 @@ func TestRun(t *testing.T) {
 			ChordRocksGuitarImporter: chordRocksGuitarImporterError,
 			ChordsMapExporter:        chordsMapExporterSuccess,
 		}
-		err3 := Run("map", runner3)
+		err3 := Run(runner3)
 		assert.Error(t, err3, "Expected error")
 
 		runner4 := model.Runner{
@@ -150,7 +136,7 @@ func TestRun(t *testing.T) {
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			ChordsMapExporter:        chordsMapExporterError,
 		}
-		err4 := Run("map", runner4)
+		err4 := Run(runner4)
 		assert.Error(t, err4, "Expected error")
 	})
 }

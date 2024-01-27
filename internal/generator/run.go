@@ -6,7 +6,7 @@ import (
 	"github.com/demonyze/infernote/internal/model"
 )
 
-func Run(output string, runner model.Runner) error {
+func Run(runner model.Runner) error {
 	chordRocksImport, err := runner.ChordRocksGuitarImporter.Import()
 	if err != nil {
 		fmt.Println("🚫", err)
@@ -19,34 +19,15 @@ func Run(output string, runner model.Runner) error {
 		return err
 	}
 
-	switch output {
-	case "array":
-		{
-			chordsArray := ChordsAsArray(CreateChordParams{
-				chordsDbImport,
-				chordRocksImport,
-			})
+	chordsMap := ChordsAsMap(CreateChordParams{
+		chordsDbImport,
+		chordRocksImport,
+	})
 
-			exportError := runner.ChordsArrayExporter.Export(chordsArray)
-			if exportError != nil {
-				fmt.Println("🚫", exportError)
-				return exportError
-			}
-		}
-	default:
-		{
-			chordsMap := ChordsAsMap(CreateChordParams{
-				chordsDbImport,
-				chordRocksImport,
-			})
-
-			exportError := runner.ChordsMapExporter.Export(chordsMap)
-			if exportError != nil {
-				fmt.Println("🚫", exportError)
-				return exportError
-			}
-		}
-
+	exportError := runner.ChordsMapExporter.Export(chordsMap)
+	if exportError != nil {
+		fmt.Println("🚫", exportError)
+		return exportError
 	}
 
 	return nil

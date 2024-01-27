@@ -12,7 +12,6 @@ func main() {
 
 	var fileName string = utils.GetArg(0, "chords.json")
 	var path string = utils.GetArg(1, "sample")
-	var output string = utils.GetArg(2, "map")
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
@@ -24,11 +23,6 @@ func main() {
 		Path: "resources/chords-db/guitar.json",
 	}
 
-	// Exporter
-	chordsArrayExporter := model.Export[[]model.Chord]{
-		FileName: fileName,
-		Path:     path,
-	}
 	chordsMapExporter := model.Export[map[string]model.Chord]{
 		FileName: fileName,
 		Path:     path,
@@ -38,11 +32,10 @@ func main() {
 		ChordsDbGuitarImporter:   chordDbGuitarImporter,
 		ChordRocksGuitarImporter: chordRocksGuitarImporter,
 
-		ChordsArrayExporter: chordsArrayExporter,
-		ChordsMapExporter:   chordsMapExporter,
+		ChordsMapExporter: chordsMapExporter,
 	}
 
-	generator.Run(output, runner)
+	generator.Run(runner)
 
 	fmt.Println("🎉 Files successfully exported")
 }

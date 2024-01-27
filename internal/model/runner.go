@@ -6,6 +6,5 @@ type Runner struct {
 	ChordsDbGuitarImporter   Importer[ChordsDbGuitarImport]
 
 	// Exporter
-	ChordsArrayExporter Exporter[[]Chord]
-	ChordsMapExporter   Exporter[map[string]Chord]
+	ChordsMapExporter Exporter[map[string]Chord]
 }
