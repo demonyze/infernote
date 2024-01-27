@@ -29,6 +29,6 @@ jobs:
         with:
           version: latest
           args: release --rm-dist
-          workdir: ./cmd/app
+          workdir: ./cmd/infernote
         env:
           GITHUB_TOKEN: ${{ secrets.GO_RELEASER_GITHUB_TOKEN }}
