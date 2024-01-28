@@ -35,6 +35,7 @@ infernote --lang=de
 
 All supported languages can be found in the `/lang` directory.
 
+> [!NOTE]
 > Feel free to add new language files or update existing ones via pull requests.
 
 ### Credit
