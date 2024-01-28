@@ -1,21 +1,17 @@
 package generator
 
 import (
-	"fmt"
-
 	"github.com/demonyze/infernote/internal/model"
 )
 
 func Run(runner model.Runner) error {
 	chordRocksImport, err := runner.ChordRocksGuitarImporter.Import()
 	if err != nil {
-		fmt.Println("🚫", err)
 		return err
 	}
 
 	chordsDbImport, err := runner.ChordsDbGuitarImporter.Import()
 	if err != nil {
-		fmt.Println("🚫", err)
 		return err
 	}
 
@@ -26,7 +22,6 @@ func Run(runner model.Runner) error {
 
 	languageImport, err := runner.LanguageImporter.Import()
 	if err != nil {
-		fmt.Println("🚫", err)
 		return err
 	}
 
@@ -40,7 +35,6 @@ func Run(runner model.Runner) error {
 
 	exportError := runner.InfernoteExporter.Export(infernote)
 	if exportError != nil {
-		fmt.Println("🚫", exportError)
 		return exportError
 	}
 

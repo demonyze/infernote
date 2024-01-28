@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/demonyze/infernote/internal/generator"
 	"github.com/demonyze/infernote/internal/model"
@@ -10,9 +11,8 @@ import (
 
 func main() {
 
-	var fileName string = utils.GetArg(0, "chords.json")
-	var path string = utils.GetArg(1, "sample")
-	var language string = utils.GetArg(2, "en")
+	args := os.Args[1:]
+	params := utils.GetParams(args)
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
@@ -24,13 +24,13 @@ func main() {
 		Path: "resources/chords-db/guitar.json",
 	}
 	languageImporter := model.Import[model.LanguageImport]{
-		Path: fmt.Sprintf("lang/%s.json", language),
+		Path: fmt.Sprintf("lang/%s.json", params.Language),
 	}
 
 	// Exporter
 	exporter := model.Export[model.Infernote]{
-		FileName: fileName,
-		Path:     path,
+		FileName: params.FileName,
+		Path:     params.FilePath,
 	}
 
 	runner := model.Runner{
@@ -41,7 +41,11 @@ func main() {
 		InfernoteExporter: exporter,
 	}
 
-	generator.Run(runner)
+	err := generator.Run(runner)
+	if err != nil {
+		fmt.Println("🚫", err)
+		return
+	}
 
 	fmt.Println("🎉 Files successfully exported")
 }

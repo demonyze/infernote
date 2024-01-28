@@ -2,7 +2,7 @@ tests:
 	go test -v ./... -coverpkg=./...
 
 build:
-	go build ./cmd/app/main.go
+	go build ./cmd/infernote/main.go
 
 chords:
-	go run ./cmd/app/main.go
+	go run ./cmd/infernote/main.go
