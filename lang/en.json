@@ -1,0 +1,31 @@
+{
+  "language": "en",
+  "types": {
+    "major": "Major",
+    "minor": "Minor",
+    "5": "5th",
+    "7": "7th",
+    "maj7": "Major 7th",
+    "m7": "Minor 7th",
+    "m7b5": "Minor 7th Flat 5th",
+    "dim": "Diminished",
+    "aug": "Augmented",
+    "sus2": "Suspended 2nd",
+    "m6": "Minor 6th",
+    "6": "6th",
+    "sus4": "Suspended 4th",
+    "9": "9th",
+    "maj9": "Major 9th",
+    "m9": "Minor 9th",
+    "69": "6th add 9",
+    "11": "11th",
+    "7b5": "7th Flat 5",
+    "mmaj7": "Minor Major 7th",
+    "7sus4": "7th Suspended 4th",
+    "dim7": "Diminished 7th",
+    "maj7#5": "7th Sharp 5",
+    "mmaj9": "Minor Major 9th",
+    "m11": "Minor 11th",
+    "maj11": "Major 11th"
+  }
+}

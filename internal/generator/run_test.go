@@ -11,7 +11,7 @@ import (
 )
 
 type ExportMockSuccess[
-	T []model.Chord | map[string]model.Chord,
+	T model.Infernote,
 ] struct {
 	Path     string
 	FileName string
@@ -22,7 +22,7 @@ func (ex ExportMockSuccess[T]) Export(data T) error {
 }
 
 type ExportMockError[
-	T []model.Chord | map[string]model.Chord,
+	T model.Infernote,
 ] struct {
 	Path     string
 	FileName string
@@ -33,7 +33,7 @@ func (ex ExportMockError[T]) Export(data T) error {
 }
 
 type ImportMockSuccess[
-	T model.ChordsDbGuitarImport | model.ChordRocksGuitarImport,
+	T model.ChordsDbGuitarImport | model.ChordRocksGuitarImport | model.LanguageImport,
 ] struct {
 	Path string
 }
@@ -44,7 +44,7 @@ func (imp ImportMockSuccess[T]) Import() (T, error) {
 }
 
 type ImportMockError[
-	T model.ChordsDbGuitarImport | model.ChordRocksGuitarImport,
+	T model.ChordsDbGuitarImport | model.ChordRocksGuitarImport | model.LanguageImport,
 ] struct {
 	Path string
 }
@@ -66,6 +66,11 @@ func TestRun(t *testing.T) {
 	defer os.Remove(chordsDbFile.Name())
 	defer chordsDbFile.Close()
 
+	languageFile, err := os.CreateTemp("", "lang*.json")
+	require.NoError(t, err, "Error creating temporary language file")
+	defer os.Remove(languageFile.Name())
+	defer languageFile.Close()
+
 	// Write sample data to the temporary files
 	chordRocksData := []byte(`{"A": {"11": {
             "internal_suffix_name": "11th",
@@ -76,16 +81,23 @@ func TestRun(t *testing.T) {
           }}}`)
 	chordsDbData := []byte(`{"keys":["C"],"chords":{"C":[{"key":"C","suffix":"maj","positions":[]}]}}`)
 
+	langugeData := []byte(`{
+		"language": "en",
+		"types": {
+		  "major": "Major",
+		  "minor": "Minor",
+		  "5": "5th",
+		  "7": "7th"}}`)
+
 	chordRocksFile.Write(chordRocksData)
 	chordsDbFile.Write(chordsDbData)
+	languageFile.Write(langugeData)
 
 	FileName := "output.json"
 	Path := ""
 
-	chordsArrayExporterSuccess := ExportMockSuccess[[]model.Chord]{FileName, Path}
-	chordsMapExporterSuccess := ExportMockSuccess[map[string]model.Chord]{FileName, Path}
-	chordsArrayExporterError := ExportMockError[[]model.Chord]{FileName, Path}
-	chordsMapExporterError := ExportMockError[map[string]model.Chord]{FileName, Path}
+	exporterSuccess := ExportMockSuccess[model.Infernote]{FileName, Path}
+	exporterError := ExportMockError[model.Infernote]{FileName, Path}
 
 	chordRocksGuitarImporterSuccess := ImportMockSuccess[model.ChordRocksGuitarImport]{
 		Path: chordRocksFile.Name(),
@@ -99,58 +111,67 @@ func TestRun(t *testing.T) {
 	chordDbGuitarImporterError := ImportMockError[model.ChordsDbGuitarImport]{
 		Path: chordsDbFile.Name(),
 	}
+	languageImporterSuccess := ImportMockSuccess[model.LanguageImport]{
+		Path: languageFile.Name(),
+	}
+	languageImporterError := ImportMockError[model.LanguageImport]{
+		Path: languageFile.Name(),
+	}
 
-	t.Run("Successful Run - Array", func(t *testing.T) {
+	t.Run("Successful Run", func(t *testing.T) {
 		runner := model.Runner{
+			LanguageImporter:         languageImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
-			ChordsArrayExporter:      chordsArrayExporterSuccess,
+			InfernoteExporter:        exporterSuccess,
 		}
-		err := Run("array", runner)
-		assert.NoError(t, err, "Expected no error for a successful run")
-	})
-
-	t.Run("Successful Run - Map", func(t *testing.T) {
-		runner := model.Runner{
-			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
-			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
-			ChordsMapExporter:        chordsMapExporterSuccess,
-		}
-		err := Run("map", runner)
+		err := Run(runner)
 		assert.NoError(t, err, "Expected no error for a successful run")
 	})
 
 	t.Run("Error Runs", func(t *testing.T) {
 		runner1 := model.Runner{
+			LanguageImporter:         languageImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterError,
-			ChordsArrayExporter:      chordsArrayExporterSuccess,
 		}
-		err1 := Run("array", runner1)
+		err1 := Run(runner1)
 		assert.Error(t, err1, "Expected error")
 
 		runner2 := model.Runner{
+			LanguageImporter:         languageImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
-			ChordsArrayExporter:      chordsArrayExporterError,
+			InfernoteExporter:        exporterError,
 		}
-		err2 := Run("array", runner2)
+		err2 := Run(runner2)
 		assert.Error(t, err2, "Expected error")
 
 		runner3 := model.Runner{
+			LanguageImporter:         languageImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterError,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterError,
-			ChordsMapExporter:        chordsMapExporterSuccess,
+			InfernoteExporter:        exporterSuccess,
 		}
-		err3 := Run("map", runner3)
+		err3 := Run(runner3)
 		assert.Error(t, err3, "Expected error")
 
 		runner4 := model.Runner{
+			LanguageImporter:         languageImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
-			ChordsMapExporter:        chordsMapExporterError,
+			InfernoteExporter:        exporterError,
 		}
-		err4 := Run("map", runner4)
+		err4 := Run(runner4)
 		assert.Error(t, err4, "Expected error")
+
+		runner5 := model.Runner{
+			LanguageImporter:         languageImporterError,
+			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
+			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
+			InfernoteExporter:        exporterSuccess,
+		}
+		err5 := Run(runner5)
+		assert.Error(t, err5, "Expected error")
 	})
 }

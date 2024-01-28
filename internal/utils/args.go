@@ -1,6 +1,8 @@
 package utils
 
-import "os"
+import (
+	"os"
+)
 
 func GetArg(index int, fallback string) string {
 	args := os.Args[1:]

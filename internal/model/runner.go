@@ -1,11 +1,15 @@
 package model
 
 type Runner struct {
-	// Importer
+	// -- Importer --
+
+	// Chords
 	ChordRocksGuitarImporter Importer[ChordRocksGuitarImport]
 	ChordsDbGuitarImporter   Importer[ChordsDbGuitarImport]
 
-	// Exporter
-	ChordsArrayExporter Exporter[[]Chord]
-	ChordsMapExporter   Exporter[map[string]Chord]
+	//Language
+	LanguageImporter Importer[LanguageImport]
+
+	// -- Exporter --
+	InfernoteExporter Exporter[Infernote]
 }

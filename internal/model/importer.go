@@ -7,13 +7,13 @@ import (
 )
 
 type Importer[
-	T ChordsDbGuitarImport | ChordRocksGuitarImport,
+	T ChordsDbGuitarImport | ChordRocksGuitarImport | LanguageImport,
 ] interface {
 	Import() (T, error)
 }
 
 type Import[
-	T ChordsDbGuitarImport | ChordRocksGuitarImport,
+	T ChordsDbGuitarImport | ChordRocksGuitarImport | LanguageImport,
 ] struct {
 	Path string
 }

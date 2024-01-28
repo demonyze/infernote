@@ -1,5 +1,10 @@
 package model
 
+type LanguageImport struct {
+	Language Language          `json:"language"`
+	Types    map[string]string `json:"types"`
+}
+
 type ChordsDbGuitarImport struct {
 	Keys   []string                         `json:"keys"`
 	Chords map[string][]ChordsDbGuitarChord `json:"chords"`

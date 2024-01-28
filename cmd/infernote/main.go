@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/demonyze/infernote/internal/generator"
 	"github.com/demonyze/infernote/internal/model"
@@ -10,9 +11,8 @@ import (
 
 func main() {
 
-	var fileName string = utils.GetArg(0, "chords.json")
-	var path string = utils.GetArg(1, "sample")
-	var output string = utils.GetArg(2, "map")
+	args := os.Args[1:]
+	params := utils.GetParams(args)
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
@@ -23,26 +23,29 @@ func main() {
 	chordDbGuitarImporter := model.Import[model.ChordsDbGuitarImport]{
 		Path: "resources/chords-db/guitar.json",
 	}
+	languageImporter := model.Import[model.LanguageImport]{
+		Path: fmt.Sprintf("lang/%s.json", params.Language),
+	}
 
 	// Exporter
-	chordsArrayExporter := model.Export[[]model.Chord]{
-		FileName: fileName,
-		Path:     path,
-	}
-	chordsMapExporter := model.Export[map[string]model.Chord]{
-		FileName: fileName,
-		Path:     path,
+	exporter := model.Export[model.Infernote]{
+		FileName: params.FileName,
+		Path:     params.FilePath,
 	}
 
 	runner := model.Runner{
 		ChordsDbGuitarImporter:   chordDbGuitarImporter,
 		ChordRocksGuitarImporter: chordRocksGuitarImporter,
+		LanguageImporter:         languageImporter,
 
-		ChordsArrayExporter: chordsArrayExporter,
-		ChordsMapExporter:   chordsMapExporter,
+		InfernoteExporter: exporter,
 	}
 
-	generator.Run(output, runner)
+	err := generator.Run(runner)
+	if err != nil {
+		fmt.Println("🚫", err)
+		return
+	}
 
 	fmt.Println("🎉 Files successfully exported")
 }
