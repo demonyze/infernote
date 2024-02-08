@@ -19,6 +19,7 @@ func createChord(
 	return model.Chord{
 		Id:              utils.CreateId(chordsDbChord.Key, chordsDbChord.Suffix),
 		Name:            fmt.Sprintf("%s %s", chordsDbChord.Key, chordsDbChord.Suffix),
+		NameShort:       fmt.Sprintf("%s%s", chordsDbChord.Key, utils.AlternateSuffix(chordsDbChord.Suffix)),
 		GuitarPositions: chordsDbChord.Positions,
 		Root:            model.Note{Name: chordsDbChord.Key},
 		Type:            chordsDbChord.Suffix,
