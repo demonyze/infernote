@@ -17,7 +17,6 @@ func FindNoteByName(name string) (model.Note, error) {
 	for _, note := range data.Notes {
 		if strings.ToLower(note.Name) == noteName ||
 			strings.ToLower(note.AlternativeName) == noteName {
-			fmt.Println("IS:", strings.ToLower(note.Name), noteName)
 			return note, nil
 		}
 	}

@@ -13,7 +13,6 @@ func NotesfromStringNames(namesString string) []model.Note {
 		return notes
 	}
 	namesArray := strings.Split(namesString, ",")
-	fmt.Printf(namesString)
 	for _, name := range namesArray {
 		note, err := FindNoteByName(name)
 		if err != nil {

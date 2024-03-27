@@ -1,6 +1,7 @@
 package main
 
 import (
+	"embed"
 	"fmt"
 	"os"
 
@@ -9,6 +10,12 @@ import (
 	"github.com/demonyze/infernote/internal/utils"
 )
 
+//go:embed chords-db/guitar.json
+var chordsDBImport embed.FS
+
+//go:embed greed/greed.json
+var chordRocksImport embed.FS
+
 func main() {
 
 	args := os.Args[1:]
@@ -16,12 +23,21 @@ func main() {
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
+	chordsDBData, errs := chordsDBImport.ReadFile("chords-db/guitar.json")
+	if errs != nil {
+		panic(errs)
+	}
+	chordRocksImport, errs := chordRocksImport.ReadFile("greed/greed.json")
+	if errs != nil {
+		panic(errs)
+	}
+
 	// Importer
 	chordRocksGuitarImporter := model.Import[model.ChordRocksGuitarImport]{
-		Path: "resources/greed/output.json",
+		Data: chordRocksImport,
 	}
 	chordDbGuitarImporter := model.Import[model.ChordsDbGuitarImport]{
-		Path: "resources/chords-db/guitar.json",
+		Data: chordsDBData,
 	}
 	languageImporter := model.Import[model.LanguageImport]{
 		Path: fmt.Sprintf("lang/%s.json", params.Language),

@@ -16,23 +16,27 @@ type Import[
 	T ChordsDbGuitarImport | ChordRocksGuitarImport | LanguageImport,
 ] struct {
 	Path string
+	Data []byte
 }
 
 func (imp Import[T]) Import() (T, error) {
 	var dataImport T
+	var byteData = imp.Data
 
-	jsonFile, err := os.Open(imp.Path)
-	if err != nil {
-		return dataImport, err
+	if imp.Data == nil {
+		jsonFile, err := os.Open(imp.Path)
+		if err != nil {
+			return dataImport, err
+		}
+		defer jsonFile.Close()
+		jsonBytes, err := io.ReadAll(jsonFile)
+		if err != nil {
+			return dataImport, err
+		}
+		byteData = jsonBytes
 	}
-	defer jsonFile.Close()
 
-	jsonBytes, err := io.ReadAll(jsonFile)
-	if err != nil {
-		return dataImport, err
-	}
-
-	unmarshalError := json.Unmarshal(jsonBytes, &dataImport)
+	unmarshalError := json.Unmarshal(byteData, &dataImport)
 	if unmarshalError != nil {
 		return dataImport, unmarshalError
 	}
