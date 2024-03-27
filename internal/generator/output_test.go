@@ -53,3 +53,23 @@ func TestChordsAsMap(t *testing.T) {
 	assert.Len(t, chordsMap, 2, "Unexpected length of the chords map")
 	assert.Contains(t, chordsMap, "dmin", "Key not found in the chords map")
 }
+
+func TestTypes(t *testing.T) {
+
+	var typesData map[string]string = map[string]string{
+		"major": "Major",
+		"minor": "Minor",
+		"5":     "5th",
+		"7":     "7th",
+	}
+
+	expected := map[string]model.ChordType{
+		"major": {Id: "major", Name: "Major"},
+		"minor": {Id: "minor", Name: "Minor"},
+		"5":     {Id: "5", Name: "5th"},
+		"7":     {Id: "7", Name: "7th"},
+	}
+
+	result := Types(typesData)
+	assert.Equal(t, expected, result)
+}
