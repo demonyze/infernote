@@ -11,20 +11,22 @@ import (
 type CreateChordParams struct {
 	chordsDbImport   model.ChordsDbGuitarImport
 	chordRocksImport model.ChordRocksGuitarImport
+	chordTypes       map[string]model.ChordType
 }
 
 func createChord(
 	chordsDbChord model.ChordsDbGuitarChord,
 	chordsRockChord model.ChordRocksGuitarChord,
 	note model.Note,
+	chordType model.ChordType,
 ) model.Chord {
 	return model.Chord{
 		Id:              utils.CreateId(note.Name, chordsDbChord.Suffix),
-		Name:            fmt.Sprintf("%s %s", note.Name, chordsDbChord.Suffix),
+		Name:            fmt.Sprintf("%s %s", note.Name, chordType.Name),
 		NameShort:       fmt.Sprintf("%s%s", note.Name, utils.AlternateSuffix(chordsDbChord.Suffix)),
 		GuitarPositions: chordsDbChord.Positions,
 		Root:            note,
-		Type:            chordsDbChord.Suffix,
+		Type:            chordType,
 		Notes:           utils.NotesfromStringNames(chordsRockChord.Notes),
 	}
 }
@@ -36,7 +38,12 @@ func ChordsAsMap(params CreateChordParams) map[string]model.Chord {
 		for _, chordsDbChord := range params.chordsDbImport.Chords[chordsDbNoteName] {
 			id := utils.CreateId(note.Name, chordsDbChord.Suffix)
 			chordRocksChord := params.chordRocksImport[note.Name][chordsDbChord.Suffix]
-			chords[id] = createChord(chordsDbChord, chordRocksChord, note)
+			chords[id] = createChord(
+				chordsDbChord,
+				chordRocksChord,
+				note,
+				params.chordTypes[chordsDbChord.Suffix],
+			)
 		}
 	}
 	return chords

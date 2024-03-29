@@ -31,9 +31,9 @@
   "chords": {
     "a#11": {
       "id": "a#11",
-      "name": "A# 11",
+      "name": "A# 11th",
       "nameShort": "A#11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -82,9 +82,9 @@
     },
     "a#13": {
       "id": "a#13",
-      "name": "A# 13",
+      "name": "A# ",
       "nameShort": "A#13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -126,9 +126,9 @@
     },
     "a#5": {
       "id": "a#5",
-      "name": "A# 5",
+      "name": "A# 5th",
       "nameShort": "A#5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -165,9 +165,9 @@
     },
     "a#6": {
       "id": "a#6",
-      "name": "A# 6",
+      "name": "A# 6th",
       "nameShort": "A#6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -214,9 +214,9 @@
     },
     "a#69": {
       "id": "a#69",
-      "name": "A# 69",
+      "name": "A# 6th add 9",
       "nameShort": "A#69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -264,9 +264,9 @@
     },
     "a#7": {
       "id": "a#7",
-      "name": "A# 7",
+      "name": "A# 7th",
       "nameShort": "A#7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -313,9 +313,9 @@
     },
     "a#7#9": {
       "id": "a#7#9",
-      "name": "A# 7#9",
+      "name": "A# ",
       "nameShort": "A#7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -357,9 +357,9 @@
     },
     "a#7b5": {
       "id": "a#7b5",
-      "name": "A# 7b5",
+      "name": "A# 7th Flat 5",
       "nameShort": "A#7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -406,9 +406,9 @@
     },
     "a#7b9": {
       "id": "a#7b9",
-      "name": "A# 7b9",
+      "name": "A# ",
       "nameShort": "A#7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -450,9 +450,9 @@
     },
     "a#7sus4": {
       "id": "a#7sus4",
-      "name": "A# 7sus4",
+      "name": "A# 7th Suspended 4th",
       "nameShort": "A#7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -499,9 +499,9 @@
     },
     "a#9": {
       "id": "a#9",
-      "name": "A# 9",
+      "name": "A# 9th",
       "nameShort": "A#9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -549,9 +549,9 @@
     },
     "a#9#11": {
       "id": "a#9#11",
-      "name": "A# 9#11",
+      "name": "A# ",
       "nameShort": "A#9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -593,9 +593,9 @@
     },
     "a#9b5": {
       "id": "a#9b5",
-      "name": "A# 9b5",
+      "name": "A# ",
       "nameShort": "A#9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -637,9 +637,9 @@
     },
     "a#add9": {
       "id": "a#add9",
-      "name": "A# add9",
+      "name": "A# ",
       "nameShort": "A#add9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -681,9 +681,9 @@
     },
     "a#alt": {
       "id": "a#alt",
-      "name": "A# alt",
+      "name": "A# ",
       "nameShort": "A#alt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -725,9 +725,9 @@
     },
     "a#aug": {
       "id": "a#aug",
-      "name": "A# aug",
+      "name": "A# Augmented",
       "nameShort": "A#aug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -773,9 +773,9 @@
     },
     "a#aug7": {
       "id": "a#aug7",
-      "name": "A# aug7",
+      "name": "A# ",
       "nameShort": "A#aug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -817,9 +817,9 @@
     },
     "a#aug9": {
       "id": "a#aug9",
-      "name": "A# aug9",
+      "name": "A# ",
       "nameShort": "A#aug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -861,9 +861,9 @@
     },
     "a#dim": {
       "id": "a#dim",
-      "name": "A# dim",
+      "name": "A# Diminished",
       "nameShort": "A#dim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -909,9 +909,9 @@
     },
     "a#dim7": {
       "id": "a#dim7",
-      "name": "A# dim7",
+      "name": "A# Diminished 7th",
       "nameShort": "A#dim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -958,9 +958,9 @@
     },
     "a#m11": {
       "id": "a#m11",
-      "name": "A# m11",
+      "name": "A# Minor 11th",
       "nameShort": "A#m11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1009,9 +1009,9 @@
     },
     "a#m6": {
       "id": "a#m6",
-      "name": "A# m6",
+      "name": "A# Minor 6th",
       "nameShort": "A#m6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1058,9 +1058,9 @@
     },
     "a#m69": {
       "id": "a#m69",
-      "name": "A# m69",
+      "name": "A# ",
       "nameShort": "A#m69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1102,9 +1102,9 @@
     },
     "a#m7": {
       "id": "a#m7",
-      "name": "A# m7",
+      "name": "A# Minor 7th",
       "nameShort": "A#m7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1151,9 +1151,9 @@
     },
     "a#m7b5": {
       "id": "a#m7b5",
-      "name": "A# m7b5",
+      "name": "A# Minor 7th Flat 5th",
       "nameShort": "A#m7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1200,9 +1200,9 @@
     },
     "a#m9": {
       "id": "a#m9",
-      "name": "A# m9",
+      "name": "A# Minor 9th",
       "nameShort": "A#m9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1250,9 +1250,9 @@
     },
     "a#madd9": {
       "id": "a#madd9",
-      "name": "A# madd9",
+      "name": "A# ",
       "nameShort": "A#madd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1294,9 +1294,9 @@
     },
     "a#maj11": {
       "id": "a#maj11",
-      "name": "A# maj11",
+      "name": "A# Major 11th",
       "nameShort": "A#maj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1345,9 +1345,9 @@
     },
     "a#maj13": {
       "id": "a#maj13",
-      "name": "A# maj13",
+      "name": "A# ",
       "nameShort": "A#maj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1389,9 +1389,9 @@
     },
     "a#maj7": {
       "id": "a#maj7",
-      "name": "A# maj7",
+      "name": "A# Major 7th",
       "nameShort": "A#maj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1438,9 +1438,9 @@
     },
     "a#maj7#5": {
       "id": "a#maj7#5",
-      "name": "A# maj7#5",
+      "name": "A# 7th Sharp 5",
       "nameShort": "A#maj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1487,9 +1487,9 @@
     },
     "a#maj7b5": {
       "id": "a#maj7b5",
-      "name": "A# maj7b5",
+      "name": "A# ",
       "nameShort": "A#maj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1531,9 +1531,9 @@
     },
     "a#maj9": {
       "id": "a#maj9",
-      "name": "A# maj9",
+      "name": "A# Major 9th",
       "nameShort": "A#maj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1581,9 +1581,9 @@
     },
     "a#major": {
       "id": "a#major",
-      "name": "A# major",
+      "name": "A# Major",
       "nameShort": "A#",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1629,9 +1629,9 @@
     },
     "a#minor": {
       "id": "a#minor",
-      "name": "A# minor",
+      "name": "A# Minor",
       "nameShort": "A#m",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1677,9 +1677,9 @@
     },
     "a#mmaj11": {
       "id": "a#mmaj11",
-      "name": "A# mmaj11",
+      "name": "A# ",
       "nameShort": "A#mmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1721,9 +1721,9 @@
     },
     "a#mmaj7": {
       "id": "a#mmaj7",
-      "name": "A# mmaj7",
+      "name": "A# Minor Major 7th",
       "nameShort": "A#mmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1770,9 +1770,9 @@
     },
     "a#mmaj7b5": {
       "id": "a#mmaj7b5",
-      "name": "A# mmaj7b5",
+      "name": "A# ",
       "nameShort": "A#mmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1814,9 +1814,9 @@
     },
     "a#mmaj9": {
       "id": "a#mmaj9",
-      "name": "A# mmaj9",
+      "name": "A# Minor Major 9th",
       "nameShort": "A#mmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1864,9 +1864,9 @@
     },
     "a#sus2": {
       "id": "a#sus2",
-      "name": "A# sus2",
+      "name": "A# Suspended 2nd",
       "nameShort": "A#sus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1912,9 +1912,9 @@
     },
     "a#sus2sus4": {
       "id": "a#sus2sus4",
-      "name": "A# sus2sus4",
+      "name": "A# ",
       "nameShort": "A#sus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -1948,9 +1948,9 @@
     },
     "a#sus4": {
       "id": "a#sus4",
-      "name": "A# sus4",
+      "name": "A# Suspended 4th",
       "nameShort": "A#sus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -1996,9 +1996,9 @@
     },
     "a/c#": {
       "id": "a/c#",
-      "name": "A /C#",
+      "name": "A ",
       "nameShort": "A/C#",
-      "type": "/C#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2032,9 +2032,9 @@
     },
     "a/e": {
       "id": "a/e",
-      "name": "A /E",
+      "name": "A ",
       "nameShort": "A/E",
-      "type": "/E",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2068,9 +2068,9 @@
     },
     "a/f": {
       "id": "a/f",
-      "name": "A /F",
+      "name": "A ",
       "nameShort": "A/F",
-      "type": "/F",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2104,9 +2104,9 @@
     },
     "a/f#": {
       "id": "a/f#",
-      "name": "A /F#",
+      "name": "A ",
       "nameShort": "A/F#",
-      "type": "/F#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2140,9 +2140,9 @@
     },
     "a/g": {
       "id": "a/g",
-      "name": "A /G",
+      "name": "A ",
       "nameShort": "A/G",
-      "type": "/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2176,9 +2176,9 @@
     },
     "a/g#": {
       "id": "a/g#",
-      "name": "A /G#",
+      "name": "A ",
       "nameShort": "A/G#",
-      "type": "/G#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2212,9 +2212,9 @@
     },
     "a11": {
       "id": "a11",
-      "name": "A 11",
+      "name": "A 11th",
       "nameShort": "A11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2263,9 +2263,9 @@
     },
     "a13": {
       "id": "a13",
-      "name": "A 13",
+      "name": "A ",
       "nameShort": "A13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2307,9 +2307,9 @@
     },
     "a5": {
       "id": "a5",
-      "name": "A 5",
+      "name": "A 5th",
       "nameShort": "A5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2346,9 +2346,9 @@
     },
     "a6": {
       "id": "a6",
-      "name": "A 6",
+      "name": "A 6th",
       "nameShort": "A6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2395,9 +2395,9 @@
     },
     "a69": {
       "id": "a69",
-      "name": "A 69",
+      "name": "A 6th add 9",
       "nameShort": "A69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2445,9 +2445,9 @@
     },
     "a7": {
       "id": "a7",
-      "name": "A 7",
+      "name": "A 7th",
       "nameShort": "A7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2494,9 +2494,9 @@
     },
     "a7#9": {
       "id": "a7#9",
-      "name": "A 7#9",
+      "name": "A ",
       "nameShort": "A7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2538,9 +2538,9 @@
     },
     "a7b5": {
       "id": "a7b5",
-      "name": "A 7b5",
+      "name": "A 7th Flat 5",
       "nameShort": "A7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2587,9 +2587,9 @@
     },
     "a7b9": {
       "id": "a7b9",
-      "name": "A 7b9",
+      "name": "A ",
       "nameShort": "A7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2631,9 +2631,9 @@
     },
     "a7sus4": {
       "id": "a7sus4",
-      "name": "A 7sus4",
+      "name": "A 7th Suspended 4th",
       "nameShort": "A7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2680,9 +2680,9 @@
     },
     "a9": {
       "id": "a9",
-      "name": "A 9",
+      "name": "A 9th",
       "nameShort": "A9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2730,9 +2730,9 @@
     },
     "a9#11": {
       "id": "a9#11",
-      "name": "A 9#11",
+      "name": "A ",
       "nameShort": "A9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2774,9 +2774,9 @@
     },
     "a9b5": {
       "id": "a9b5",
-      "name": "A 9b5",
+      "name": "A ",
       "nameShort": "A9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2818,9 +2818,9 @@
     },
     "aadd9": {
       "id": "aadd9",
-      "name": "A add9",
+      "name": "A ",
       "nameShort": "Aadd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2862,9 +2862,9 @@
     },
     "aalt": {
       "id": "aalt",
-      "name": "A alt",
+      "name": "A ",
       "nameShort": "Aalt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2906,9 +2906,9 @@
     },
     "aaug": {
       "id": "aaug",
-      "name": "A aug",
+      "name": "A Augmented",
       "nameShort": "Aaug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -2954,9 +2954,9 @@
     },
     "aaug7": {
       "id": "aaug7",
-      "name": "A aug7",
+      "name": "A ",
       "nameShort": "Aaug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -2998,9 +2998,9 @@
     },
     "aaug9": {
       "id": "aaug9",
-      "name": "A aug9",
+      "name": "A ",
       "nameShort": "Aaug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3042,9 +3042,9 @@
     },
     "adim": {
       "id": "adim",
-      "name": "A dim",
+      "name": "A Diminished",
       "nameShort": "Adim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3090,9 +3090,9 @@
     },
     "adim7": {
       "id": "adim7",
-      "name": "A dim7",
+      "name": "A Diminished 7th",
       "nameShort": "Adim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3139,9 +3139,9 @@
     },
     "am/c": {
       "id": "am/c",
-      "name": "A m/C",
+      "name": "A ",
       "nameShort": "Am/C",
-      "type": "m/C",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3175,9 +3175,9 @@
     },
     "am/e": {
       "id": "am/e",
-      "name": "A m/E",
+      "name": "A ",
       "nameShort": "Am/E",
-      "type": "m/E",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3211,9 +3211,9 @@
     },
     "am/f": {
       "id": "am/f",
-      "name": "A m/F",
+      "name": "A ",
       "nameShort": "Am/F",
-      "type": "m/F",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3247,9 +3247,9 @@
     },
     "am/f#": {
       "id": "am/f#",
-      "name": "A m/F#",
+      "name": "A ",
       "nameShort": "Am/F#",
-      "type": "m/F#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3283,9 +3283,9 @@
     },
     "am/g": {
       "id": "am/g",
-      "name": "A m/G",
+      "name": "A ",
       "nameShort": "Am/G",
-      "type": "m/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3319,9 +3319,9 @@
     },
     "am/g#": {
       "id": "am/g#",
-      "name": "A m/G#",
+      "name": "A ",
       "nameShort": "Am/G#",
-      "type": "m/G#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3347,9 +3347,9 @@
     },
     "am11": {
       "id": "am11",
-      "name": "A m11",
+      "name": "A Minor 11th",
       "nameShort": "Am11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3398,9 +3398,9 @@
     },
     "am6": {
       "id": "am6",
-      "name": "A m6",
+      "name": "A Minor 6th",
       "nameShort": "Am6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3447,9 +3447,9 @@
     },
     "am69": {
       "id": "am69",
-      "name": "A m69",
+      "name": "A ",
       "nameShort": "Am69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3491,9 +3491,9 @@
     },
     "am7": {
       "id": "am7",
-      "name": "A m7",
+      "name": "A Minor 7th",
       "nameShort": "Am7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3540,9 +3540,9 @@
     },
     "am7b5": {
       "id": "am7b5",
-      "name": "A m7b5",
+      "name": "A Minor 7th Flat 5th",
       "nameShort": "Am7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3589,9 +3589,9 @@
     },
     "am9": {
       "id": "am9",
-      "name": "A m9",
+      "name": "A Minor 9th",
       "nameShort": "Am9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3639,9 +3639,9 @@
     },
     "amadd9": {
       "id": "amadd9",
-      "name": "A madd9",
+      "name": "A ",
       "nameShort": "Amadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3683,9 +3683,9 @@
     },
     "amaj11": {
       "id": "amaj11",
-      "name": "A maj11",
+      "name": "A Major 11th",
       "nameShort": "Amaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3734,9 +3734,9 @@
     },
     "amaj13": {
       "id": "amaj13",
-      "name": "A maj13",
+      "name": "A ",
       "nameShort": "Amaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3778,9 +3778,9 @@
     },
     "amaj7": {
       "id": "amaj7",
-      "name": "A maj7",
+      "name": "A Major 7th",
       "nameShort": "Amaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3827,9 +3827,9 @@
     },
     "amaj7#5": {
       "id": "amaj7#5",
-      "name": "A maj7#5",
+      "name": "A 7th Sharp 5",
       "nameShort": "Amaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3876,9 +3876,9 @@
     },
     "amaj7b5": {
       "id": "amaj7b5",
-      "name": "A maj7b5",
+      "name": "A ",
       "nameShort": "Amaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -3920,9 +3920,9 @@
     },
     "amaj9": {
       "id": "amaj9",
-      "name": "A maj9",
+      "name": "A Major 9th",
       "nameShort": "Amaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -3970,9 +3970,9 @@
     },
     "amajor": {
       "id": "amajor",
-      "name": "A major",
+      "name": "A Major",
       "nameShort": "A",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4018,9 +4018,9 @@
     },
     "aminor": {
       "id": "aminor",
-      "name": "A minor",
+      "name": "A Minor",
       "nameShort": "Am",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4066,9 +4066,9 @@
     },
     "ammaj11": {
       "id": "ammaj11",
-      "name": "A mmaj11",
+      "name": "A ",
       "nameShort": "Ammaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4110,9 +4110,9 @@
     },
     "ammaj7": {
       "id": "ammaj7",
-      "name": "A mmaj7",
+      "name": "A Minor Major 7th",
       "nameShort": "Ammaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4159,9 +4159,9 @@
     },
     "ammaj7b5": {
       "id": "ammaj7b5",
-      "name": "A mmaj7b5",
+      "name": "A ",
       "nameShort": "Ammaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4203,9 +4203,9 @@
     },
     "ammaj9": {
       "id": "ammaj9",
-      "name": "A mmaj9",
+      "name": "A Minor Major 9th",
       "nameShort": "Ammaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4253,9 +4253,9 @@
     },
     "asus2": {
       "id": "asus2",
-      "name": "A sus2",
+      "name": "A Suspended 2nd",
       "nameShort": "Asus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4301,9 +4301,9 @@
     },
     "asus2sus4": {
       "id": "asus2sus4",
-      "name": "A sus2sus4",
+      "name": "A ",
       "nameShort": "Asus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4337,9 +4337,9 @@
     },
     "asus4": {
       "id": "asus4",
-      "name": "A sus4",
+      "name": "A Suspended 4th",
       "nameShort": "Asus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4385,9 +4385,9 @@
     },
     "b11": {
       "id": "b11",
-      "name": "B 11",
+      "name": "B 11th",
       "nameShort": "B11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4436,9 +4436,9 @@
     },
     "b13": {
       "id": "b13",
-      "name": "B 13",
+      "name": "B ",
       "nameShort": "B13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4480,9 +4480,9 @@
     },
     "b5": {
       "id": "b5",
-      "name": "B 5",
+      "name": "B 5th",
       "nameShort": "B5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4519,9 +4519,9 @@
     },
     "b6": {
       "id": "b6",
-      "name": "B 6",
+      "name": "B 6th",
       "nameShort": "B6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4568,9 +4568,9 @@
     },
     "b69": {
       "id": "b69",
-      "name": "B 69",
+      "name": "B 6th add 9",
       "nameShort": "B69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4618,9 +4618,9 @@
     },
     "b7": {
       "id": "b7",
-      "name": "B 7",
+      "name": "B 7th",
       "nameShort": "B7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4667,9 +4667,9 @@
     },
     "b7#9": {
       "id": "b7#9",
-      "name": "B 7#9",
+      "name": "B ",
       "nameShort": "B7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4711,9 +4711,9 @@
     },
     "b7b5": {
       "id": "b7b5",
-      "name": "B 7b5",
+      "name": "B 7th Flat 5",
       "nameShort": "B7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4760,9 +4760,9 @@
     },
     "b7b9": {
       "id": "b7b9",
-      "name": "B 7b9",
+      "name": "B ",
       "nameShort": "B7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4804,9 +4804,9 @@
     },
     "b7sus4": {
       "id": "b7sus4",
-      "name": "B 7sus4",
+      "name": "B 7th Suspended 4th",
       "nameShort": "B7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4853,9 +4853,9 @@
     },
     "b9": {
       "id": "b9",
-      "name": "B 9",
+      "name": "B 9th",
       "nameShort": "B9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -4903,9 +4903,9 @@
     },
     "b9#11": {
       "id": "b9#11",
-      "name": "B 9#11",
+      "name": "B ",
       "nameShort": "B9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4947,9 +4947,9 @@
     },
     "b9b5": {
       "id": "b9b5",
-      "name": "B 9b5",
+      "name": "B ",
       "nameShort": "B9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -4991,9 +4991,9 @@
     },
     "badd9": {
       "id": "badd9",
-      "name": "B add9",
+      "name": "B ",
       "nameShort": "Badd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5035,9 +5035,9 @@
     },
     "balt": {
       "id": "balt",
-      "name": "B alt",
+      "name": "B ",
       "nameShort": "Balt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5079,9 +5079,9 @@
     },
     "baug": {
       "id": "baug",
-      "name": "B aug",
+      "name": "B Augmented",
       "nameShort": "Baug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5127,9 +5127,9 @@
     },
     "baug7": {
       "id": "baug7",
-      "name": "B aug7",
+      "name": "B ",
       "nameShort": "Baug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5171,9 +5171,9 @@
     },
     "baug9": {
       "id": "baug9",
-      "name": "B aug9",
+      "name": "B ",
       "nameShort": "Baug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5215,9 +5215,9 @@
     },
     "bdim": {
       "id": "bdim",
-      "name": "B dim",
+      "name": "B Diminished",
       "nameShort": "Bdim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5263,9 +5263,9 @@
     },
     "bdim7": {
       "id": "bdim7",
-      "name": "B dim7",
+      "name": "B Diminished 7th",
       "nameShort": "Bdim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5312,9 +5312,9 @@
     },
     "bm11": {
       "id": "bm11",
-      "name": "B m11",
+      "name": "B Minor 11th",
       "nameShort": "Bm11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5363,9 +5363,9 @@
     },
     "bm6": {
       "id": "bm6",
-      "name": "B m6",
+      "name": "B Minor 6th",
       "nameShort": "Bm6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5412,9 +5412,9 @@
     },
     "bm69": {
       "id": "bm69",
-      "name": "B m69",
+      "name": "B ",
       "nameShort": "Bm69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5456,9 +5456,9 @@
     },
     "bm7": {
       "id": "bm7",
-      "name": "B m7",
+      "name": "B Minor 7th",
       "nameShort": "Bm7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5505,9 +5505,9 @@
     },
     "bm7b5": {
       "id": "bm7b5",
-      "name": "B m7b5",
+      "name": "B Minor 7th Flat 5th",
       "nameShort": "Bm7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5554,9 +5554,9 @@
     },
     "bm9": {
       "id": "bm9",
-      "name": "B m9",
+      "name": "B Minor 9th",
       "nameShort": "Bm9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5604,9 +5604,9 @@
     },
     "bmadd9": {
       "id": "bmadd9",
-      "name": "B madd9",
+      "name": "B ",
       "nameShort": "Bmadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5648,9 +5648,9 @@
     },
     "bmaj11": {
       "id": "bmaj11",
-      "name": "B maj11",
+      "name": "B Major 11th",
       "nameShort": "Bmaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5699,9 +5699,9 @@
     },
     "bmaj13": {
       "id": "bmaj13",
-      "name": "B maj13",
+      "name": "B ",
       "nameShort": "Bmaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5743,9 +5743,9 @@
     },
     "bmaj7": {
       "id": "bmaj7",
-      "name": "B maj7",
+      "name": "B Major 7th",
       "nameShort": "Bmaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5792,9 +5792,9 @@
     },
     "bmaj7#5": {
       "id": "bmaj7#5",
-      "name": "B maj7#5",
+      "name": "B 7th Sharp 5",
       "nameShort": "Bmaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5841,9 +5841,9 @@
     },
     "bmaj7b5": {
       "id": "bmaj7b5",
-      "name": "B maj7b5",
+      "name": "B ",
       "nameShort": "Bmaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -5885,9 +5885,9 @@
     },
     "bmaj9": {
       "id": "bmaj9",
-      "name": "B maj9",
+      "name": "B Major 9th",
       "nameShort": "Bmaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5935,9 +5935,9 @@
     },
     "bmajor": {
       "id": "bmajor",
-      "name": "B major",
+      "name": "B Major",
       "nameShort": "B",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -5983,9 +5983,9 @@
     },
     "bminor": {
       "id": "bminor",
-      "name": "B minor",
+      "name": "B Minor",
       "nameShort": "Bm",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6031,9 +6031,9 @@
     },
     "bmmaj11": {
       "id": "bmmaj11",
-      "name": "B mmaj11",
+      "name": "B ",
       "nameShort": "Bmmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6075,9 +6075,9 @@
     },
     "bmmaj7": {
       "id": "bmmaj7",
-      "name": "B mmaj7",
+      "name": "B Minor Major 7th",
       "nameShort": "Bmmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6124,9 +6124,9 @@
     },
     "bmmaj7b5": {
       "id": "bmmaj7b5",
-      "name": "B mmaj7b5",
+      "name": "B ",
       "nameShort": "Bmmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6168,9 +6168,9 @@
     },
     "bmmaj9": {
       "id": "bmmaj9",
-      "name": "B mmaj9",
+      "name": "B Minor Major 9th",
       "nameShort": "Bmmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6218,9 +6218,9 @@
     },
     "bsus2": {
       "id": "bsus2",
-      "name": "B sus2",
+      "name": "B Suspended 2nd",
       "nameShort": "Bsus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6266,9 +6266,9 @@
     },
     "bsus2sus4": {
       "id": "bsus2sus4",
-      "name": "B sus2sus4",
+      "name": "B ",
       "nameShort": "Bsus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6302,9 +6302,9 @@
     },
     "bsus4": {
       "id": "bsus4",
-      "name": "B sus4",
+      "name": "B Suspended 4th",
       "nameShort": "Bsus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6350,9 +6350,9 @@
     },
     "c/e": {
       "id": "c/e",
-      "name": "C /E",
+      "name": "C ",
       "nameShort": "C/E",
-      "type": "/E",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6386,9 +6386,9 @@
     },
     "c/f": {
       "id": "c/f",
-      "name": "C /F",
+      "name": "C ",
       "nameShort": "C/F",
-      "type": "/F",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6422,9 +6422,9 @@
     },
     "c/g": {
       "id": "c/g",
-      "name": "C /G",
+      "name": "C ",
       "nameShort": "C/G",
-      "type": "/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6458,9 +6458,9 @@
     },
     "c11": {
       "id": "c11",
-      "name": "C 11",
+      "name": "C 11th",
       "nameShort": "C11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6509,9 +6509,9 @@
     },
     "c13": {
       "id": "c13",
-      "name": "C 13",
+      "name": "C ",
       "nameShort": "C13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6553,9 +6553,9 @@
     },
     "c5": {
       "id": "c5",
-      "name": "C 5",
+      "name": "C 5th",
       "nameShort": "C5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6592,9 +6592,9 @@
     },
     "c6": {
       "id": "c6",
-      "name": "C 6",
+      "name": "C 6th",
       "nameShort": "C6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6641,9 +6641,9 @@
     },
     "c69": {
       "id": "c69",
-      "name": "C 69",
+      "name": "C 6th add 9",
       "nameShort": "C69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6691,9 +6691,9 @@
     },
     "c7": {
       "id": "c7",
-      "name": "C 7",
+      "name": "C 7th",
       "nameShort": "C7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6740,9 +6740,9 @@
     },
     "c7#9": {
       "id": "c7#9",
-      "name": "C 7#9",
+      "name": "C ",
       "nameShort": "C7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6784,9 +6784,9 @@
     },
     "c7/g": {
       "id": "c7/g",
-      "name": "C 7/G",
+      "name": "C ",
       "nameShort": "C7/G",
-      "type": "7/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6820,9 +6820,9 @@
     },
     "c7b5": {
       "id": "c7b5",
-      "name": "C 7b5",
+      "name": "C 7th Flat 5",
       "nameShort": "C7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6869,9 +6869,9 @@
     },
     "c7b9": {
       "id": "c7b9",
-      "name": "C 7b9",
+      "name": "C ",
       "nameShort": "C7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -6913,9 +6913,9 @@
     },
     "c7sus4": {
       "id": "c7sus4",
-      "name": "C 7sus4",
+      "name": "C 7th Suspended 4th",
       "nameShort": "C7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -6962,9 +6962,9 @@
     },
     "c9": {
       "id": "c9",
-      "name": "C 9",
+      "name": "C 9th",
       "nameShort": "C9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7020,9 +7020,9 @@
     },
     "c9#11": {
       "id": "c9#11",
-      "name": "C 9#11",
+      "name": "C ",
       "nameShort": "C9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7064,9 +7064,9 @@
     },
     "c9b5": {
       "id": "c9b5",
-      "name": "C 9b5",
+      "name": "C ",
       "nameShort": "C9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7108,9 +7108,9 @@
     },
     "cadd9": {
       "id": "cadd9",
-      "name": "C add9",
+      "name": "C ",
       "nameShort": "Cadd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7152,9 +7152,9 @@
     },
     "calt": {
       "id": "calt",
-      "name": "C alt",
+      "name": "C ",
       "nameShort": "Calt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7196,9 +7196,9 @@
     },
     "caug": {
       "id": "caug",
-      "name": "C aug",
+      "name": "C Augmented",
       "nameShort": "Caug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7244,9 +7244,9 @@
     },
     "caug7": {
       "id": "caug7",
-      "name": "C aug7",
+      "name": "C ",
       "nameShort": "Caug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7288,9 +7288,9 @@
     },
     "caug9": {
       "id": "caug9",
-      "name": "C aug9",
+      "name": "C ",
       "nameShort": "Caug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7332,9 +7332,9 @@
     },
     "cdim": {
       "id": "cdim",
-      "name": "C dim",
+      "name": "C Diminished",
       "nameShort": "Cdim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7380,9 +7380,9 @@
     },
     "cdim7": {
       "id": "cdim7",
-      "name": "C dim7",
+      "name": "C Diminished 7th",
       "nameShort": "Cdim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7429,9 +7429,9 @@
     },
     "cm11": {
       "id": "cm11",
-      "name": "C m11",
+      "name": "C Minor 11th",
       "nameShort": "Cm11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7480,9 +7480,9 @@
     },
     "cm6": {
       "id": "cm6",
-      "name": "C m6",
+      "name": "C Minor 6th",
       "nameShort": "Cm6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7529,9 +7529,9 @@
     },
     "cm69": {
       "id": "cm69",
-      "name": "C m69",
+      "name": "C ",
       "nameShort": "Cm69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7573,9 +7573,9 @@
     },
     "cm7": {
       "id": "cm7",
-      "name": "C m7",
+      "name": "C Minor 7th",
       "nameShort": "Cm7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7622,9 +7622,9 @@
     },
     "cm7b5": {
       "id": "cm7b5",
-      "name": "C m7b5",
+      "name": "C Minor 7th Flat 5th",
       "nameShort": "Cm7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7671,9 +7671,9 @@
     },
     "cm9": {
       "id": "cm9",
-      "name": "C m9",
+      "name": "C Minor 9th",
       "nameShort": "Cm9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7721,9 +7721,9 @@
     },
     "cmadd9": {
       "id": "cmadd9",
-      "name": "C madd9",
+      "name": "C ",
       "nameShort": "Cmadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7765,9 +7765,9 @@
     },
     "cmaj11": {
       "id": "cmaj11",
-      "name": "C maj11",
+      "name": "C Major 11th",
       "nameShort": "Cmaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7816,9 +7816,9 @@
     },
     "cmaj13": {
       "id": "cmaj13",
-      "name": "C maj13",
+      "name": "C ",
       "nameShort": "Cmaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -7860,9 +7860,9 @@
     },
     "cmaj7": {
       "id": "cmaj7",
-      "name": "C maj7",
+      "name": "C Major 7th",
       "nameShort": "Cmaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7909,9 +7909,9 @@
     },
     "cmaj7#5": {
       "id": "cmaj7#5",
-      "name": "C maj7#5",
+      "name": "C 7th Sharp 5",
       "nameShort": "Cmaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -7958,9 +7958,9 @@
     },
     "cmaj7b5": {
       "id": "cmaj7b5",
-      "name": "C maj7b5",
+      "name": "C ",
       "nameShort": "Cmaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8002,9 +8002,9 @@
     },
     "cmaj9": {
       "id": "cmaj9",
-      "name": "C maj9",
+      "name": "C Major 9th",
       "nameShort": "Cmaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8052,9 +8052,9 @@
     },
     "cmajor": {
       "id": "cmajor",
-      "name": "C major",
+      "name": "C Major",
       "nameShort": "C",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8100,9 +8100,9 @@
     },
     "cminor": {
       "id": "cminor",
-      "name": "C minor",
+      "name": "C Minor",
       "nameShort": "Cm",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8148,9 +8148,9 @@
     },
     "cmmaj11": {
       "id": "cmmaj11",
-      "name": "C mmaj11",
+      "name": "C ",
       "nameShort": "Cmmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8192,9 +8192,9 @@
     },
     "cmmaj7": {
       "id": "cmmaj7",
-      "name": "C mmaj7",
+      "name": "C Minor Major 7th",
       "nameShort": "Cmmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8241,9 +8241,9 @@
     },
     "cmmaj7b5": {
       "id": "cmmaj7b5",
-      "name": "C mmaj7b5",
+      "name": "C ",
       "nameShort": "Cmmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8285,9 +8285,9 @@
     },
     "cmmaj9": {
       "id": "cmmaj9",
-      "name": "C mmaj9",
+      "name": "C Minor Major 9th",
       "nameShort": "Cmmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8335,9 +8335,9 @@
     },
     "csus2": {
       "id": "csus2",
-      "name": "C sus2",
+      "name": "C Suspended 2nd",
       "nameShort": "Csus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8383,9 +8383,9 @@
     },
     "csus2sus4": {
       "id": "csus2sus4",
-      "name": "C sus2sus4",
+      "name": "C ",
       "nameShort": "Csus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8419,9 +8419,9 @@
     },
     "csus4": {
       "id": "csus4",
-      "name": "C sus4",
+      "name": "C Suspended 4th",
       "nameShort": "Csus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8467,9 +8467,9 @@
     },
     "d#11": {
       "id": "d#11",
-      "name": "D# 11",
+      "name": "D# 11th",
       "nameShort": "D#11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8518,9 +8518,9 @@
     },
     "d#13": {
       "id": "d#13",
-      "name": "D# 13",
+      "name": "D# ",
       "nameShort": "D#13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8562,9 +8562,9 @@
     },
     "d#5": {
       "id": "d#5",
-      "name": "D# 5",
+      "name": "D# 5th",
       "nameShort": "D#5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8601,9 +8601,9 @@
     },
     "d#6": {
       "id": "d#6",
-      "name": "D# 6",
+      "name": "D# 6th",
       "nameShort": "D#6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8650,9 +8650,9 @@
     },
     "d#69": {
       "id": "d#69",
-      "name": "D# 69",
+      "name": "D# 6th add 9",
       "nameShort": "D#69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8700,9 +8700,9 @@
     },
     "d#7": {
       "id": "d#7",
-      "name": "D# 7",
+      "name": "D# 7th",
       "nameShort": "D#7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8749,9 +8749,9 @@
     },
     "d#7#9": {
       "id": "d#7#9",
-      "name": "D# 7#9",
+      "name": "D# ",
       "nameShort": "D#7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8793,9 +8793,9 @@
     },
     "d#7b5": {
       "id": "d#7b5",
-      "name": "D# 7b5",
+      "name": "D# 7th Flat 5",
       "nameShort": "D#7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8842,9 +8842,9 @@
     },
     "d#7b9": {
       "id": "d#7b9",
-      "name": "D# 7b9",
+      "name": "D# ",
       "nameShort": "D#7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -8886,9 +8886,9 @@
     },
     "d#7sus4": {
       "id": "d#7sus4",
-      "name": "D# 7sus4",
+      "name": "D# 7th Suspended 4th",
       "nameShort": "D#7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8935,9 +8935,9 @@
     },
     "d#9": {
       "id": "d#9",
-      "name": "D# 9",
+      "name": "D# 9th",
       "nameShort": "D#9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -8985,9 +8985,9 @@
     },
     "d#9#11": {
       "id": "d#9#11",
-      "name": "D# 9#11",
+      "name": "D# ",
       "nameShort": "D#9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9029,9 +9029,9 @@
     },
     "d#9b5": {
       "id": "d#9b5",
-      "name": "D# 9b5",
+      "name": "D# ",
       "nameShort": "D#9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9073,9 +9073,9 @@
     },
     "d#add9": {
       "id": "d#add9",
-      "name": "D# add9",
+      "name": "D# ",
       "nameShort": "D#add9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9117,9 +9117,9 @@
     },
     "d#alt": {
       "id": "d#alt",
-      "name": "D# alt",
+      "name": "D# ",
       "nameShort": "D#alt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9161,9 +9161,9 @@
     },
     "d#aug": {
       "id": "d#aug",
-      "name": "D# aug",
+      "name": "D# Augmented",
       "nameShort": "D#aug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9209,9 +9209,9 @@
     },
     "d#aug7": {
       "id": "d#aug7",
-      "name": "D# aug7",
+      "name": "D# ",
       "nameShort": "D#aug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9253,9 +9253,9 @@
     },
     "d#aug9": {
       "id": "d#aug9",
-      "name": "D# aug9",
+      "name": "D# ",
       "nameShort": "D#aug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9297,9 +9297,9 @@
     },
     "d#dim": {
       "id": "d#dim",
-      "name": "D# dim",
+      "name": "D# Diminished",
       "nameShort": "D#dim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9345,9 +9345,9 @@
     },
     "d#dim7": {
       "id": "d#dim7",
-      "name": "D# dim7",
+      "name": "D# Diminished 7th",
       "nameShort": "D#dim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9394,9 +9394,9 @@
     },
     "d#m11": {
       "id": "d#m11",
-      "name": "D# m11",
+      "name": "D# Minor 11th",
       "nameShort": "D#m11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9445,9 +9445,9 @@
     },
     "d#m6": {
       "id": "d#m6",
-      "name": "D# m6",
+      "name": "D# Minor 6th",
       "nameShort": "D#m6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9494,9 +9494,9 @@
     },
     "d#m69": {
       "id": "d#m69",
-      "name": "D# m69",
+      "name": "D# ",
       "nameShort": "D#m69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9538,9 +9538,9 @@
     },
     "d#m7": {
       "id": "d#m7",
-      "name": "D# m7",
+      "name": "D# Minor 7th",
       "nameShort": "D#m7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9587,9 +9587,9 @@
     },
     "d#m7b5": {
       "id": "d#m7b5",
-      "name": "D# m7b5",
+      "name": "D# Minor 7th Flat 5th",
       "nameShort": "D#m7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9636,9 +9636,9 @@
     },
     "d#m9": {
       "id": "d#m9",
-      "name": "D# m9",
+      "name": "D# Minor 9th",
       "nameShort": "D#m9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9686,9 +9686,9 @@
     },
     "d#madd9": {
       "id": "d#madd9",
-      "name": "D# madd9",
+      "name": "D# ",
       "nameShort": "D#madd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9730,9 +9730,9 @@
     },
     "d#maj11": {
       "id": "d#maj11",
-      "name": "D# maj11",
+      "name": "D# Major 11th",
       "nameShort": "D#maj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9781,9 +9781,9 @@
     },
     "d#maj13": {
       "id": "d#maj13",
-      "name": "D# maj13",
+      "name": "D# ",
       "nameShort": "D#maj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9825,9 +9825,9 @@
     },
     "d#maj7": {
       "id": "d#maj7",
-      "name": "D# maj7",
+      "name": "D# Major 7th",
       "nameShort": "D#maj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9874,9 +9874,9 @@
     },
     "d#maj7#5": {
       "id": "d#maj7#5",
-      "name": "D# maj7#5",
+      "name": "D# 7th Sharp 5",
       "nameShort": "D#maj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -9923,9 +9923,9 @@
     },
     "d#maj7b5": {
       "id": "d#maj7b5",
-      "name": "D# maj7b5",
+      "name": "D# ",
       "nameShort": "D#maj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -9967,9 +9967,9 @@
     },
     "d#maj9": {
       "id": "d#maj9",
-      "name": "D# maj9",
+      "name": "D# Major 9th",
       "nameShort": "D#maj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10017,9 +10017,9 @@
     },
     "d#major": {
       "id": "d#major",
-      "name": "D# major",
+      "name": "D# Major",
       "nameShort": "D#",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10065,9 +10065,9 @@
     },
     "d#minor": {
       "id": "d#minor",
-      "name": "D# minor",
+      "name": "D# Minor",
       "nameShort": "D#m",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10113,9 +10113,9 @@
     },
     "d#mmaj11": {
       "id": "d#mmaj11",
-      "name": "D# mmaj11",
+      "name": "D# ",
       "nameShort": "D#mmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10157,9 +10157,9 @@
     },
     "d#mmaj7": {
       "id": "d#mmaj7",
-      "name": "D# mmaj7",
+      "name": "D# Minor Major 7th",
       "nameShort": "D#mmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10206,9 +10206,9 @@
     },
     "d#mmaj7b5": {
       "id": "d#mmaj7b5",
-      "name": "D# mmaj7b5",
+      "name": "D# ",
       "nameShort": "D#mmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10250,9 +10250,9 @@
     },
     "d#mmaj9": {
       "id": "d#mmaj9",
-      "name": "D# mmaj9",
+      "name": "D# Minor Major 9th",
       "nameShort": "D#mmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10300,9 +10300,9 @@
     },
     "d#sus2": {
       "id": "d#sus2",
-      "name": "D# sus2",
+      "name": "D# Suspended 2nd",
       "nameShort": "D#sus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10348,9 +10348,9 @@
     },
     "d#sus2sus4": {
       "id": "d#sus2sus4",
-      "name": "D# sus2sus4",
+      "name": "D# ",
       "nameShort": "D#sus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10384,9 +10384,9 @@
     },
     "d#sus4": {
       "id": "d#sus4",
-      "name": "D# sus4",
+      "name": "D# Suspended 4th",
       "nameShort": "D#sus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10432,9 +10432,9 @@
     },
     "d/a": {
       "id": "d/a",
-      "name": "D /A",
+      "name": "D ",
       "nameShort": "D/A",
-      "type": "/A",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10468,9 +10468,9 @@
     },
     "d/b": {
       "id": "d/b",
-      "name": "D /B",
+      "name": "D ",
       "nameShort": "D/B",
-      "type": "/B",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10504,9 +10504,9 @@
     },
     "d/bb": {
       "id": "d/bb",
-      "name": "D /Bb",
+      "name": "D ",
       "nameShort": "D/Bb",
-      "type": "/Bb",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10540,9 +10540,9 @@
     },
     "d/c": {
       "id": "d/c",
-      "name": "D /C",
+      "name": "D ",
       "nameShort": "D/C",
-      "type": "/C",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10576,9 +10576,9 @@
     },
     "d/f#": {
       "id": "d/f#",
-      "name": "D /F#",
+      "name": "D ",
       "nameShort": "D/F#",
-      "type": "/F#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10612,9 +10612,9 @@
     },
     "d11": {
       "id": "d11",
-      "name": "D 11",
+      "name": "D 11th",
       "nameShort": "D11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10663,9 +10663,9 @@
     },
     "d13": {
       "id": "d13",
-      "name": "D 13",
+      "name": "D ",
       "nameShort": "D13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10707,9 +10707,9 @@
     },
     "d5": {
       "id": "d5",
-      "name": "D 5",
+      "name": "D 5th",
       "nameShort": "D5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10746,9 +10746,9 @@
     },
     "d6": {
       "id": "d6",
-      "name": "D 6",
+      "name": "D 6th",
       "nameShort": "D6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10795,9 +10795,9 @@
     },
     "d69": {
       "id": "d69",
-      "name": "D 69",
+      "name": "D 6th add 9",
       "nameShort": "D69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10845,9 +10845,9 @@
     },
     "d7": {
       "id": "d7",
-      "name": "D 7",
+      "name": "D 7th",
       "nameShort": "D7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10894,9 +10894,9 @@
     },
     "d7#9": {
       "id": "d7#9",
-      "name": "D 7#9",
+      "name": "D ",
       "nameShort": "D7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -10938,9 +10938,9 @@
     },
     "d7b5": {
       "id": "d7b5",
-      "name": "D 7b5",
+      "name": "D 7th Flat 5",
       "nameShort": "D7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -10987,9 +10987,9 @@
     },
     "d7b9": {
       "id": "d7b9",
-      "name": "D 7b9",
+      "name": "D ",
       "nameShort": "D7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11031,9 +11031,9 @@
     },
     "d7sus4": {
       "id": "d7sus4",
-      "name": "D 7sus4",
+      "name": "D 7th Suspended 4th",
       "nameShort": "D7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11080,9 +11080,9 @@
     },
     "d9": {
       "id": "d9",
-      "name": "D 9",
+      "name": "D 9th",
       "nameShort": "D9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11130,9 +11130,9 @@
     },
     "d9#11": {
       "id": "d9#11",
-      "name": "D 9#11",
+      "name": "D ",
       "nameShort": "D9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11174,9 +11174,9 @@
     },
     "d9b5": {
       "id": "d9b5",
-      "name": "D 9b5",
+      "name": "D ",
       "nameShort": "D9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11218,9 +11218,9 @@
     },
     "dadd9": {
       "id": "dadd9",
-      "name": "D add9",
+      "name": "D ",
       "nameShort": "Dadd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11262,9 +11262,9 @@
     },
     "dalt": {
       "id": "dalt",
-      "name": "D alt",
+      "name": "D ",
       "nameShort": "Dalt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11306,9 +11306,9 @@
     },
     "daug": {
       "id": "daug",
-      "name": "D aug",
+      "name": "D Augmented",
       "nameShort": "Daug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11354,9 +11354,9 @@
     },
     "daug7": {
       "id": "daug7",
-      "name": "D aug7",
+      "name": "D ",
       "nameShort": "Daug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11398,9 +11398,9 @@
     },
     "daug9": {
       "id": "daug9",
-      "name": "D aug9",
+      "name": "D ",
       "nameShort": "Daug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11442,9 +11442,9 @@
     },
     "ddim": {
       "id": "ddim",
-      "name": "D dim",
+      "name": "D Diminished",
       "nameShort": "Ddim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11490,9 +11490,9 @@
     },
     "ddim7": {
       "id": "ddim7",
-      "name": "D dim7",
+      "name": "D Diminished 7th",
       "nameShort": "Ddim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11539,9 +11539,9 @@
     },
     "dm11": {
       "id": "dm11",
-      "name": "D m11",
+      "name": "D Minor 11th",
       "nameShort": "Dm11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11590,9 +11590,9 @@
     },
     "dm6": {
       "id": "dm6",
-      "name": "D m6",
+      "name": "D Minor 6th",
       "nameShort": "Dm6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11639,9 +11639,9 @@
     },
     "dm69": {
       "id": "dm69",
-      "name": "D m69",
+      "name": "D ",
       "nameShort": "Dm69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11683,9 +11683,9 @@
     },
     "dm7": {
       "id": "dm7",
-      "name": "D m7",
+      "name": "D Minor 7th",
       "nameShort": "Dm7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11732,9 +11732,9 @@
     },
     "dm7b5": {
       "id": "dm7b5",
-      "name": "D m7b5",
+      "name": "D Minor 7th Flat 5th",
       "nameShort": "Dm7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11781,9 +11781,9 @@
     },
     "dm9": {
       "id": "dm9",
-      "name": "D m9",
+      "name": "D Minor 9th",
       "nameShort": "Dm9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11831,9 +11831,9 @@
     },
     "dmadd9": {
       "id": "dmadd9",
-      "name": "D madd9",
+      "name": "D ",
       "nameShort": "Dmadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11875,9 +11875,9 @@
     },
     "dmaj11": {
       "id": "dmaj11",
-      "name": "D maj11",
+      "name": "D Major 11th",
       "nameShort": "Dmaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -11926,9 +11926,9 @@
     },
     "dmaj13": {
       "id": "dmaj13",
-      "name": "D maj13",
+      "name": "D ",
       "nameShort": "Dmaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -11970,9 +11970,9 @@
     },
     "dmaj7": {
       "id": "dmaj7",
-      "name": "D maj7",
+      "name": "D Major 7th",
       "nameShort": "Dmaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12019,9 +12019,9 @@
     },
     "dmaj7#5": {
       "id": "dmaj7#5",
-      "name": "D maj7#5",
+      "name": "D 7th Sharp 5",
       "nameShort": "Dmaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12068,9 +12068,9 @@
     },
     "dmaj7b5": {
       "id": "dmaj7b5",
-      "name": "D maj7b5",
+      "name": "D ",
       "nameShort": "Dmaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12112,9 +12112,9 @@
     },
     "dmaj9": {
       "id": "dmaj9",
-      "name": "D maj9",
+      "name": "D Major 9th",
       "nameShort": "Dmaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12162,9 +12162,9 @@
     },
     "dmajor": {
       "id": "dmajor",
-      "name": "D major",
+      "name": "D Major",
       "nameShort": "D",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12210,9 +12210,9 @@
     },
     "dminor": {
       "id": "dminor",
-      "name": "D minor",
+      "name": "D Minor",
       "nameShort": "Dm",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12258,9 +12258,9 @@
     },
     "dmmaj11": {
       "id": "dmmaj11",
-      "name": "D mmaj11",
+      "name": "D ",
       "nameShort": "Dmmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12302,9 +12302,9 @@
     },
     "dmmaj7": {
       "id": "dmmaj7",
-      "name": "D mmaj7",
+      "name": "D Minor Major 7th",
       "nameShort": "Dmmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12351,9 +12351,9 @@
     },
     "dmmaj7b5": {
       "id": "dmmaj7b5",
-      "name": "D mmaj7b5",
+      "name": "D ",
       "nameShort": "Dmmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12395,9 +12395,9 @@
     },
     "dmmaj9": {
       "id": "dmmaj9",
-      "name": "D mmaj9",
+      "name": "D Minor Major 9th",
       "nameShort": "Dmmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12445,9 +12445,9 @@
     },
     "dsus2": {
       "id": "dsus2",
-      "name": "D sus2",
+      "name": "D Suspended 2nd",
       "nameShort": "Dsus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12493,9 +12493,9 @@
     },
     "dsus2sus4": {
       "id": "dsus2sus4",
-      "name": "D sus2sus4",
+      "name": "D ",
       "nameShort": "Dsus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12529,9 +12529,9 @@
     },
     "dsus4": {
       "id": "dsus4",
-      "name": "D sus4",
+      "name": "D Suspended 4th",
       "nameShort": "Dsus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12577,9 +12577,9 @@
     },
     "e/b": {
       "id": "e/b",
-      "name": "E /B",
+      "name": "E ",
       "nameShort": "E/B",
-      "type": "/B",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12613,9 +12613,9 @@
     },
     "e/c#": {
       "id": "e/c#",
-      "name": "E /C#",
+      "name": "E ",
       "nameShort": "E/C#",
-      "type": "/C#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12649,9 +12649,9 @@
     },
     "e/d": {
       "id": "e/d",
-      "name": "E /D",
+      "name": "E ",
       "nameShort": "E/D",
-      "type": "/D",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12685,9 +12685,9 @@
     },
     "e/d#": {
       "id": "e/d#",
-      "name": "E /D#",
+      "name": "E ",
       "nameShort": "E/D#",
-      "type": "/D#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12721,9 +12721,9 @@
     },
     "e/f": {
       "id": "e/f",
-      "name": "E /F",
+      "name": "E ",
       "nameShort": "E/F",
-      "type": "/F",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12757,9 +12757,9 @@
     },
     "e/f#": {
       "id": "e/f#",
-      "name": "E /F#",
+      "name": "E ",
       "nameShort": "E/F#",
-      "type": "/F#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12793,9 +12793,9 @@
     },
     "e/g": {
       "id": "e/g",
-      "name": "E /G",
+      "name": "E ",
       "nameShort": "E/G",
-      "type": "/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12829,9 +12829,9 @@
     },
     "e/g#": {
       "id": "e/g#",
-      "name": "E /G#",
+      "name": "E ",
       "nameShort": "E/G#",
-      "type": "/G#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12873,9 +12873,9 @@
     },
     "e11": {
       "id": "e11",
-      "name": "E 11",
+      "name": "E 11th",
       "nameShort": "E11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -12924,9 +12924,9 @@
     },
     "e13": {
       "id": "e13",
-      "name": "E 13",
+      "name": "E ",
       "nameShort": "E13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -12968,9 +12968,9 @@
     },
     "e5": {
       "id": "e5",
-      "name": "E 5",
+      "name": "E 5th",
       "nameShort": "E5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13015,9 +13015,9 @@
     },
     "e6": {
       "id": "e6",
-      "name": "E 6",
+      "name": "E 6th",
       "nameShort": "E6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13064,9 +13064,9 @@
     },
     "e69": {
       "id": "e69",
-      "name": "E 69",
+      "name": "E 6th add 9",
       "nameShort": "E69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13114,9 +13114,9 @@
     },
     "e7": {
       "id": "e7",
-      "name": "E 7",
+      "name": "E 7th",
       "nameShort": "E7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13163,9 +13163,9 @@
     },
     "e7#9": {
       "id": "e7#9",
-      "name": "E 7#9",
+      "name": "E ",
       "nameShort": "E7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13207,9 +13207,9 @@
     },
     "e7b5": {
       "id": "e7b5",
-      "name": "E 7b5",
+      "name": "E 7th Flat 5",
       "nameShort": "E7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13256,9 +13256,9 @@
     },
     "e7b9": {
       "id": "e7b9",
-      "name": "E 7b9",
+      "name": "E ",
       "nameShort": "E7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13300,9 +13300,9 @@
     },
     "e7sus4": {
       "id": "e7sus4",
-      "name": "E 7sus4",
+      "name": "E 7th Suspended 4th",
       "nameShort": "E7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13349,9 +13349,9 @@
     },
     "e9": {
       "id": "e9",
-      "name": "E 9",
+      "name": "E 9th",
       "nameShort": "E9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13399,9 +13399,9 @@
     },
     "e9#11": {
       "id": "e9#11",
-      "name": "E 9#11",
+      "name": "E ",
       "nameShort": "E9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13443,9 +13443,9 @@
     },
     "e9b5": {
       "id": "e9b5",
-      "name": "E 9b5",
+      "name": "E ",
       "nameShort": "E9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13487,9 +13487,9 @@
     },
     "eadd9": {
       "id": "eadd9",
-      "name": "E add9",
+      "name": "E ",
       "nameShort": "Eadd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13531,9 +13531,9 @@
     },
     "ealt": {
       "id": "ealt",
-      "name": "E alt",
+      "name": "E ",
       "nameShort": "Ealt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13575,9 +13575,9 @@
     },
     "eaug": {
       "id": "eaug",
-      "name": "E aug",
+      "name": "E Augmented",
       "nameShort": "Eaug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13623,9 +13623,9 @@
     },
     "eaug7": {
       "id": "eaug7",
-      "name": "E aug7",
+      "name": "E ",
       "nameShort": "Eaug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13667,9 +13667,9 @@
     },
     "eaug9": {
       "id": "eaug9",
-      "name": "E aug9",
+      "name": "E ",
       "nameShort": "Eaug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13711,9 +13711,9 @@
     },
     "edim": {
       "id": "edim",
-      "name": "E dim",
+      "name": "E Diminished",
       "nameShort": "Edim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13759,9 +13759,9 @@
     },
     "edim7": {
       "id": "edim7",
-      "name": "E dim7",
+      "name": "E Diminished 7th",
       "nameShort": "Edim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -13808,9 +13808,9 @@
     },
     "em/b": {
       "id": "em/b",
-      "name": "E m/B",
+      "name": "E ",
       "nameShort": "Em/B",
-      "type": "m/B",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13852,9 +13852,9 @@
     },
     "em/c#": {
       "id": "em/c#",
-      "name": "E m/C#",
+      "name": "E ",
       "nameShort": "Em/C#",
-      "type": "m/C#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13888,9 +13888,9 @@
     },
     "em/d": {
       "id": "em/d",
-      "name": "E m/D",
+      "name": "E ",
       "nameShort": "Em/D",
-      "type": "m/D",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13924,9 +13924,9 @@
     },
     "em/d#": {
       "id": "em/d#",
-      "name": "E m/D#",
+      "name": "E ",
       "nameShort": "Em/D#",
-      "type": "m/D#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13960,9 +13960,9 @@
     },
     "em/f": {
       "id": "em/f",
-      "name": "E m/F",
+      "name": "E ",
       "nameShort": "Em/F",
-      "type": "m/F",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -13996,9 +13996,9 @@
     },
     "em/f#": {
       "id": "em/f#",
-      "name": "E m/F#",
+      "name": "E ",
       "nameShort": "Em/F#",
-      "type": "m/F#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14032,9 +14032,9 @@
     },
     "em/g": {
       "id": "em/g",
-      "name": "E m/G",
+      "name": "E ",
       "nameShort": "Em/G",
-      "type": "m/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14068,9 +14068,9 @@
     },
     "em/g#": {
       "id": "em/g#",
-      "name": "E m/G#",
+      "name": "E ",
       "nameShort": "Em/G#",
-      "type": "m/G#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14104,9 +14104,9 @@
     },
     "em11": {
       "id": "em11",
-      "name": "E m11",
+      "name": "E Minor 11th",
       "nameShort": "Em11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14155,9 +14155,9 @@
     },
     "em6": {
       "id": "em6",
-      "name": "E m6",
+      "name": "E Minor 6th",
       "nameShort": "Em6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14204,9 +14204,9 @@
     },
     "em69": {
       "id": "em69",
-      "name": "E m69",
+      "name": "E ",
       "nameShort": "Em69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14248,9 +14248,9 @@
     },
     "em7": {
       "id": "em7",
-      "name": "E m7",
+      "name": "E Minor 7th",
       "nameShort": "Em7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14305,9 +14305,9 @@
     },
     "em7b5": {
       "id": "em7b5",
-      "name": "E m7b5",
+      "name": "E Minor 7th Flat 5th",
       "nameShort": "Em7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14354,9 +14354,9 @@
     },
     "em9": {
       "id": "em9",
-      "name": "E m9",
+      "name": "E Minor 9th",
       "nameShort": "Em9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14404,9 +14404,9 @@
     },
     "emadd9": {
       "id": "emadd9",
-      "name": "E madd9",
+      "name": "E ",
       "nameShort": "Emadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14448,9 +14448,9 @@
     },
     "emaj11": {
       "id": "emaj11",
-      "name": "E maj11",
+      "name": "E Major 11th",
       "nameShort": "Emaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14499,9 +14499,9 @@
     },
     "emaj13": {
       "id": "emaj13",
-      "name": "E maj13",
+      "name": "E ",
       "nameShort": "Emaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14543,9 +14543,9 @@
     },
     "emaj7": {
       "id": "emaj7",
-      "name": "E maj7",
+      "name": "E Major 7th",
       "nameShort": "Emaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14592,9 +14592,9 @@
     },
     "emaj7#5": {
       "id": "emaj7#5",
-      "name": "E maj7#5",
+      "name": "E 7th Sharp 5",
       "nameShort": "Emaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14641,9 +14641,9 @@
     },
     "emaj7b5": {
       "id": "emaj7b5",
-      "name": "E maj7b5",
+      "name": "E ",
       "nameShort": "Emaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14685,9 +14685,9 @@
     },
     "emaj9": {
       "id": "emaj9",
-      "name": "E maj9",
+      "name": "E Major 9th",
       "nameShort": "Emaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14735,9 +14735,9 @@
     },
     "emajor": {
       "id": "emajor",
-      "name": "E major",
+      "name": "E Major",
       "nameShort": "E",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14783,9 +14783,9 @@
     },
     "eminor": {
       "id": "eminor",
-      "name": "E minor",
+      "name": "E Minor",
       "nameShort": "Em",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14831,9 +14831,9 @@
     },
     "emmaj11": {
       "id": "emmaj11",
-      "name": "E mmaj11",
+      "name": "E ",
       "nameShort": "Emmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14875,9 +14875,9 @@
     },
     "emmaj7": {
       "id": "emmaj7",
-      "name": "E mmaj7",
+      "name": "E Minor Major 7th",
       "nameShort": "Emmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -14924,9 +14924,9 @@
     },
     "emmaj7b5": {
       "id": "emmaj7b5",
-      "name": "E mmaj7b5",
+      "name": "E ",
       "nameShort": "Emmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -14968,9 +14968,9 @@
     },
     "emmaj9": {
       "id": "emmaj9",
-      "name": "E mmaj9",
+      "name": "E Minor Major 9th",
       "nameShort": "Emmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15018,9 +15018,9 @@
     },
     "esus2": {
       "id": "esus2",
-      "name": "E sus2",
+      "name": "E Suspended 2nd",
       "nameShort": "Esus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15066,9 +15066,9 @@
     },
     "esus2sus4": {
       "id": "esus2sus4",
-      "name": "E sus2sus4",
+      "name": "E ",
       "nameShort": "Esus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15110,9 +15110,9 @@
     },
     "esus4": {
       "id": "esus4",
-      "name": "E sus4",
+      "name": "E Suspended 4th",
       "nameShort": "Esus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15158,9 +15158,9 @@
     },
     "f/a": {
       "id": "f/a",
-      "name": "F /A",
+      "name": "F ",
       "nameShort": "F/A",
-      "type": "/A",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15202,9 +15202,9 @@
     },
     "f/c": {
       "id": "f/c",
-      "name": "F /C",
+      "name": "F ",
       "nameShort": "F/C",
-      "type": "/C",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15238,9 +15238,9 @@
     },
     "f/d": {
       "id": "f/d",
-      "name": "F /D",
+      "name": "F ",
       "nameShort": "F/D",
-      "type": "/D",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15266,9 +15266,9 @@
     },
     "f/d#": {
       "id": "f/d#",
-      "name": "F /D#",
+      "name": "F ",
       "nameShort": "F/D#",
-      "type": "/D#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15302,9 +15302,9 @@
     },
     "f/e": {
       "id": "f/e",
-      "name": "F /E",
+      "name": "F ",
       "nameShort": "F/E",
-      "type": "/E",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15338,9 +15338,9 @@
     },
     "f/g": {
       "id": "f/g",
-      "name": "F /G",
+      "name": "F ",
       "nameShort": "F/G",
-      "type": "/G",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15374,9 +15374,9 @@
     },
     "f11": {
       "id": "f11",
-      "name": "F 11",
+      "name": "F 11th",
       "nameShort": "F11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15425,9 +15425,9 @@
     },
     "f13": {
       "id": "f13",
-      "name": "F 13",
+      "name": "F ",
       "nameShort": "F13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15469,9 +15469,9 @@
     },
     "f5": {
       "id": "f5",
-      "name": "F 5",
+      "name": "F 5th",
       "nameShort": "F5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15508,9 +15508,9 @@
     },
     "f6": {
       "id": "f6",
-      "name": "F 6",
+      "name": "F 6th",
       "nameShort": "F6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15557,9 +15557,9 @@
     },
     "f69": {
       "id": "f69",
-      "name": "F 69",
+      "name": "F 6th add 9",
       "nameShort": "F69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15607,9 +15607,9 @@
     },
     "f7": {
       "id": "f7",
-      "name": "F 7",
+      "name": "F 7th",
       "nameShort": "F7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15656,9 +15656,9 @@
     },
     "f7#9": {
       "id": "f7#9",
-      "name": "F 7#9",
+      "name": "F ",
       "nameShort": "F7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15700,9 +15700,9 @@
     },
     "f7b5": {
       "id": "f7b5",
-      "name": "F 7b5",
+      "name": "F 7th Flat 5",
       "nameShort": "F7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15749,9 +15749,9 @@
     },
     "f7b9": {
       "id": "f7b9",
-      "name": "F 7b9",
+      "name": "F ",
       "nameShort": "F7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15793,9 +15793,9 @@
     },
     "f7sus4": {
       "id": "f7sus4",
-      "name": "F 7sus4",
+      "name": "F 7th Suspended 4th",
       "nameShort": "F7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15842,9 +15842,9 @@
     },
     "f9": {
       "id": "f9",
-      "name": "F 9",
+      "name": "F 9th",
       "nameShort": "F9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -15892,9 +15892,9 @@
     },
     "f9#11": {
       "id": "f9#11",
-      "name": "F 9#11",
+      "name": "F ",
       "nameShort": "F9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15936,9 +15936,9 @@
     },
     "f9b5": {
       "id": "f9b5",
-      "name": "F 9b5",
+      "name": "F ",
       "nameShort": "F9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -15980,9 +15980,9 @@
     },
     "fadd9": {
       "id": "fadd9",
-      "name": "F add9",
+      "name": "F ",
       "nameShort": "Fadd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16024,9 +16024,9 @@
     },
     "falt": {
       "id": "falt",
-      "name": "F alt",
+      "name": "F ",
       "nameShort": "Falt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16068,9 +16068,9 @@
     },
     "faug": {
       "id": "faug",
-      "name": "F aug",
+      "name": "F Augmented",
       "nameShort": "Faug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16116,9 +16116,9 @@
     },
     "faug7": {
       "id": "faug7",
-      "name": "F aug7",
+      "name": "F ",
       "nameShort": "Faug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16160,9 +16160,9 @@
     },
     "faug9": {
       "id": "faug9",
-      "name": "F aug9",
+      "name": "F ",
       "nameShort": "Faug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16204,9 +16204,9 @@
     },
     "fdim": {
       "id": "fdim",
-      "name": "F dim",
+      "name": "F Diminished",
       "nameShort": "Fdim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16252,9 +16252,9 @@
     },
     "fdim7": {
       "id": "fdim7",
-      "name": "F dim7",
+      "name": "F Diminished 7th",
       "nameShort": "Fdim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16301,9 +16301,9 @@
     },
     "fm/c": {
       "id": "fm/c",
-      "name": "F m/C",
+      "name": "F ",
       "nameShort": "Fm/C",
-      "type": "m/C",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16337,9 +16337,9 @@
     },
     "fm11": {
       "id": "fm11",
-      "name": "F m11",
+      "name": "F Minor 11th",
       "nameShort": "Fm11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16388,9 +16388,9 @@
     },
     "fm6": {
       "id": "fm6",
-      "name": "F m6",
+      "name": "F Minor 6th",
       "nameShort": "Fm6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16437,9 +16437,9 @@
     },
     "fm69": {
       "id": "fm69",
-      "name": "F m69",
+      "name": "F ",
       "nameShort": "Fm69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16481,9 +16481,9 @@
     },
     "fm7": {
       "id": "fm7",
-      "name": "F m7",
+      "name": "F Minor 7th",
       "nameShort": "Fm7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16530,9 +16530,9 @@
     },
     "fm7b5": {
       "id": "fm7b5",
-      "name": "F m7b5",
+      "name": "F Minor 7th Flat 5th",
       "nameShort": "Fm7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16579,9 +16579,9 @@
     },
     "fm9": {
       "id": "fm9",
-      "name": "F m9",
+      "name": "F Minor 9th",
       "nameShort": "Fm9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16629,9 +16629,9 @@
     },
     "fmadd9": {
       "id": "fmadd9",
-      "name": "F madd9",
+      "name": "F ",
       "nameShort": "Fmadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16673,9 +16673,9 @@
     },
     "fmaj11": {
       "id": "fmaj11",
-      "name": "F maj11",
+      "name": "F Major 11th",
       "nameShort": "Fmaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16724,9 +16724,9 @@
     },
     "fmaj13": {
       "id": "fmaj13",
-      "name": "F maj13",
+      "name": "F ",
       "nameShort": "Fmaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16768,9 +16768,9 @@
     },
     "fmaj7": {
       "id": "fmaj7",
-      "name": "F maj7",
+      "name": "F Major 7th",
       "nameShort": "Fmaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16817,9 +16817,9 @@
     },
     "fmaj7#5": {
       "id": "fmaj7#5",
-      "name": "F maj7#5",
+      "name": "F 7th Sharp 5",
       "nameShort": "Fmaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16866,9 +16866,9 @@
     },
     "fmaj7b5": {
       "id": "fmaj7b5",
-      "name": "F maj7b5",
+      "name": "F ",
       "nameShort": "Fmaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -16910,9 +16910,9 @@
     },
     "fmaj9": {
       "id": "fmaj9",
-      "name": "F maj9",
+      "name": "F Major 9th",
       "nameShort": "Fmaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -16960,9 +16960,9 @@
     },
     "fmajor": {
       "id": "fmajor",
-      "name": "F major",
+      "name": "F Major",
       "nameShort": "F",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17008,9 +17008,9 @@
     },
     "fminor": {
       "id": "fminor",
-      "name": "F minor",
+      "name": "F Minor",
       "nameShort": "Fm",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17056,9 +17056,9 @@
     },
     "fmmaj11": {
       "id": "fmmaj11",
-      "name": "F mmaj11",
+      "name": "F ",
       "nameShort": "Fmmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17100,9 +17100,9 @@
     },
     "fmmaj7": {
       "id": "fmmaj7",
-      "name": "F mmaj7",
+      "name": "F Minor Major 7th",
       "nameShort": "Fmmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17149,9 +17149,9 @@
     },
     "fmmaj7b5": {
       "id": "fmmaj7b5",
-      "name": "F mmaj7b5",
+      "name": "F ",
       "nameShort": "Fmmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17193,9 +17193,9 @@
     },
     "fmmaj9": {
       "id": "fmmaj9",
-      "name": "F mmaj9",
+      "name": "F Minor Major 9th",
       "nameShort": "Fmmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17243,9 +17243,9 @@
     },
     "fsus2": {
       "id": "fsus2",
-      "name": "F sus2",
+      "name": "F Suspended 2nd",
       "nameShort": "Fsus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17291,9 +17291,9 @@
     },
     "fsus2sus4": {
       "id": "fsus2sus4",
-      "name": "F sus2sus4",
+      "name": "F ",
       "nameShort": "Fsus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17327,9 +17327,9 @@
     },
     "fsus4": {
       "id": "fsus4",
-      "name": "F sus4",
+      "name": "F Suspended 4th",
       "nameShort": "Fsus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17375,9 +17375,9 @@
     },
     "g#11": {
       "id": "g#11",
-      "name": "G# 11",
+      "name": "G# 11th",
       "nameShort": "G#11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17426,9 +17426,9 @@
     },
     "g#13": {
       "id": "g#13",
-      "name": "G# 13",
+      "name": "G# ",
       "nameShort": "G#13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17470,9 +17470,9 @@
     },
     "g#5": {
       "id": "g#5",
-      "name": "G# 5",
+      "name": "G# 5th",
       "nameShort": "G#5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17509,9 +17509,9 @@
     },
     "g#6": {
       "id": "g#6",
-      "name": "G# 6",
+      "name": "G# 6th",
       "nameShort": "G#6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17558,9 +17558,9 @@
     },
     "g#69": {
       "id": "g#69",
-      "name": "G# 69",
+      "name": "G# 6th add 9",
       "nameShort": "G#69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17608,9 +17608,9 @@
     },
     "g#7": {
       "id": "g#7",
-      "name": "G# 7",
+      "name": "G# 7th",
       "nameShort": "G#7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17657,9 +17657,9 @@
     },
     "g#7#9": {
       "id": "g#7#9",
-      "name": "G# 7#9",
+      "name": "G# ",
       "nameShort": "G#7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17701,9 +17701,9 @@
     },
     "g#7b5": {
       "id": "g#7b5",
-      "name": "G# 7b5",
+      "name": "G# 7th Flat 5",
       "nameShort": "G#7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17750,9 +17750,9 @@
     },
     "g#7b9": {
       "id": "g#7b9",
-      "name": "G# 7b9",
+      "name": "G# ",
       "nameShort": "G#7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17794,9 +17794,9 @@
     },
     "g#7sus4": {
       "id": "g#7sus4",
-      "name": "G# 7sus4",
+      "name": "G# 7th Suspended 4th",
       "nameShort": "G#7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17843,9 +17843,9 @@
     },
     "g#9": {
       "id": "g#9",
-      "name": "G# 9",
+      "name": "G# 9th",
       "nameShort": "G#9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -17893,9 +17893,9 @@
     },
     "g#9#11": {
       "id": "g#9#11",
-      "name": "G# 9#11",
+      "name": "G# ",
       "nameShort": "G#9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17937,9 +17937,9 @@
     },
     "g#9b5": {
       "id": "g#9b5",
-      "name": "G# 9b5",
+      "name": "G# ",
       "nameShort": "G#9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -17981,9 +17981,9 @@
     },
     "g#add9": {
       "id": "g#add9",
-      "name": "G# add9",
+      "name": "G# ",
       "nameShort": "G#add9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18025,9 +18025,9 @@
     },
     "g#alt": {
       "id": "g#alt",
-      "name": "G# alt",
+      "name": "G# ",
       "nameShort": "G#alt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18069,9 +18069,9 @@
     },
     "g#aug": {
       "id": "g#aug",
-      "name": "G# aug",
+      "name": "G# Augmented",
       "nameShort": "G#aug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18117,9 +18117,9 @@
     },
     "g#aug7": {
       "id": "g#aug7",
-      "name": "G# aug7",
+      "name": "G# ",
       "nameShort": "G#aug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18161,9 +18161,9 @@
     },
     "g#aug9": {
       "id": "g#aug9",
-      "name": "G# aug9",
+      "name": "G# ",
       "nameShort": "G#aug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18205,9 +18205,9 @@
     },
     "g#dim": {
       "id": "g#dim",
-      "name": "G# dim",
+      "name": "G# Diminished",
       "nameShort": "G#dim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18253,9 +18253,9 @@
     },
     "g#dim7": {
       "id": "g#dim7",
-      "name": "G# dim7",
+      "name": "G# Diminished 7th",
       "nameShort": "G#dim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18302,9 +18302,9 @@
     },
     "g#m11": {
       "id": "g#m11",
-      "name": "G# m11",
+      "name": "G# Minor 11th",
       "nameShort": "G#m11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18353,9 +18353,9 @@
     },
     "g#m6": {
       "id": "g#m6",
-      "name": "G# m6",
+      "name": "G# Minor 6th",
       "nameShort": "G#m6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18402,9 +18402,9 @@
     },
     "g#m69": {
       "id": "g#m69",
-      "name": "G# m69",
+      "name": "G# ",
       "nameShort": "G#m69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18446,9 +18446,9 @@
     },
     "g#m7": {
       "id": "g#m7",
-      "name": "G# m7",
+      "name": "G# Minor 7th",
       "nameShort": "G#m7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18495,9 +18495,9 @@
     },
     "g#m7b5": {
       "id": "g#m7b5",
-      "name": "G# m7b5",
+      "name": "G# Minor 7th Flat 5th",
       "nameShort": "G#m7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18544,9 +18544,9 @@
     },
     "g#m9": {
       "id": "g#m9",
-      "name": "G# m9",
+      "name": "G# Minor 9th",
       "nameShort": "G#m9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18594,9 +18594,9 @@
     },
     "g#madd9": {
       "id": "g#madd9",
-      "name": "G# madd9",
+      "name": "G# ",
       "nameShort": "G#madd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18638,9 +18638,9 @@
     },
     "g#maj11": {
       "id": "g#maj11",
-      "name": "G# maj11",
+      "name": "G# Major 11th",
       "nameShort": "G#maj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18689,9 +18689,9 @@
     },
     "g#maj13": {
       "id": "g#maj13",
-      "name": "G# maj13",
+      "name": "G# ",
       "nameShort": "G#maj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18733,9 +18733,9 @@
     },
     "g#maj7": {
       "id": "g#maj7",
-      "name": "G# maj7",
+      "name": "G# Major 7th",
       "nameShort": "G#maj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18782,9 +18782,9 @@
     },
     "g#maj7#5": {
       "id": "g#maj7#5",
-      "name": "G# maj7#5",
+      "name": "G# 7th Sharp 5",
       "nameShort": "G#maj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18831,9 +18831,9 @@
     },
     "g#maj7b5": {
       "id": "g#maj7b5",
-      "name": "G# maj7b5",
+      "name": "G# ",
       "nameShort": "G#maj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -18875,9 +18875,9 @@
     },
     "g#maj9": {
       "id": "g#maj9",
-      "name": "G# maj9",
+      "name": "G# Major 9th",
       "nameShort": "G#maj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18925,9 +18925,9 @@
     },
     "g#major": {
       "id": "g#major",
-      "name": "G# major",
+      "name": "G# Major",
       "nameShort": "G#",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -18973,9 +18973,9 @@
     },
     "g#minor": {
       "id": "g#minor",
-      "name": "G# minor",
+      "name": "G# Minor",
       "nameShort": "G#m",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19021,9 +19021,9 @@
     },
     "g#mmaj11": {
       "id": "g#mmaj11",
-      "name": "G# mmaj11",
+      "name": "G# ",
       "nameShort": "G#mmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19065,9 +19065,9 @@
     },
     "g#mmaj7": {
       "id": "g#mmaj7",
-      "name": "G# mmaj7",
+      "name": "G# Minor Major 7th",
       "nameShort": "G#mmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19114,9 +19114,9 @@
     },
     "g#mmaj7b5": {
       "id": "g#mmaj7b5",
-      "name": "G# mmaj7b5",
+      "name": "G# ",
       "nameShort": "G#mmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19158,9 +19158,9 @@
     },
     "g#mmaj9": {
       "id": "g#mmaj9",
-      "name": "G# mmaj9",
+      "name": "G# Minor Major 9th",
       "nameShort": "G#mmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19208,9 +19208,9 @@
     },
     "g#sus2": {
       "id": "g#sus2",
-      "name": "G# sus2",
+      "name": "G# Suspended 2nd",
       "nameShort": "G#sus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19256,9 +19256,9 @@
     },
     "g#sus4": {
       "id": "g#sus4",
-      "name": "G# sus4",
+      "name": "G# Suspended 4th",
       "nameShort": "G#sus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19304,9 +19304,9 @@
     },
     "g/b": {
       "id": "g/b",
-      "name": "G /B",
+      "name": "G ",
       "nameShort": "G/B",
-      "type": "/B",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19340,9 +19340,9 @@
     },
     "g/d": {
       "id": "g/d",
-      "name": "G /D",
+      "name": "G ",
       "nameShort": "G/D",
-      "type": "/D",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19376,9 +19376,9 @@
     },
     "g/e": {
       "id": "g/e",
-      "name": "G /E",
+      "name": "G ",
       "nameShort": "G/E",
-      "type": "/E",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19412,9 +19412,9 @@
     },
     "g/f": {
       "id": "g/f",
-      "name": "G /F",
+      "name": "G ",
       "nameShort": "G/F",
-      "type": "/F",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19448,9 +19448,9 @@
     },
     "g/f#": {
       "id": "g/f#",
-      "name": "G /F#",
+      "name": "G ",
       "nameShort": "G/F#",
-      "type": "/F#",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19484,9 +19484,9 @@
     },
     "g11": {
       "id": "g11",
-      "name": "G 11",
+      "name": "G 11th",
       "nameShort": "G11",
-      "type": "11",
+      "type": { "id": "11", "name": "11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19535,9 +19535,9 @@
     },
     "g13": {
       "id": "g13",
-      "name": "G 13",
+      "name": "G ",
       "nameShort": "G13",
-      "type": "13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19579,9 +19579,9 @@
     },
     "g5": {
       "id": "g5",
-      "name": "G 5",
+      "name": "G 5th",
       "nameShort": "G5",
-      "type": "5",
+      "type": { "id": "5", "name": "5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19618,9 +19618,9 @@
     },
     "g6": {
       "id": "g6",
-      "name": "G 6",
+      "name": "G 6th",
       "nameShort": "G6",
-      "type": "6",
+      "type": { "id": "6", "name": "6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19667,9 +19667,9 @@
     },
     "g69": {
       "id": "g69",
-      "name": "G 69",
+      "name": "G 6th add 9",
       "nameShort": "G69",
-      "type": "69",
+      "type": { "id": "69", "name": "6th add 9" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19717,9 +19717,9 @@
     },
     "g7": {
       "id": "g7",
-      "name": "G 7",
+      "name": "G 7th",
       "nameShort": "G7",
-      "type": "7",
+      "type": { "id": "7", "name": "7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19766,9 +19766,9 @@
     },
     "g7#9": {
       "id": "g7#9",
-      "name": "G 7#9",
+      "name": "G ",
       "nameShort": "G7#9",
-      "type": "7#9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19810,9 +19810,9 @@
     },
     "g7b5": {
       "id": "g7b5",
-      "name": "G 7b5",
+      "name": "G 7th Flat 5",
       "nameShort": "G7b5",
-      "type": "7b5",
+      "type": { "id": "7b5", "name": "7th Flat 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19859,9 +19859,9 @@
     },
     "g7b9": {
       "id": "g7b9",
-      "name": "G 7b9",
+      "name": "G ",
       "nameShort": "G7b9",
-      "type": "7b9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -19903,9 +19903,9 @@
     },
     "g7sus4": {
       "id": "g7sus4",
-      "name": "G 7sus4",
+      "name": "G 7th Suspended 4th",
       "nameShort": "G7sus4",
-      "type": "7sus4",
+      "type": { "id": "7sus4", "name": "7th Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -19952,9 +19952,9 @@
     },
     "g9": {
       "id": "g9",
-      "name": "G 9",
+      "name": "G 9th",
       "nameShort": "G9",
-      "type": "9",
+      "type": { "id": "9", "name": "9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20002,9 +20002,9 @@
     },
     "g9#11": {
       "id": "g9#11",
-      "name": "G 9#11",
+      "name": "G ",
       "nameShort": "G9#11",
-      "type": "9#11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20046,9 +20046,9 @@
     },
     "g9b5": {
       "id": "g9b5",
-      "name": "G 9b5",
+      "name": "G ",
       "nameShort": "G9b5",
-      "type": "9b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20090,9 +20090,9 @@
     },
     "gadd9": {
       "id": "gadd9",
-      "name": "G add9",
+      "name": "G ",
       "nameShort": "Gadd9",
-      "type": "add9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20134,9 +20134,9 @@
     },
     "galt": {
       "id": "galt",
-      "name": "G alt",
+      "name": "G ",
       "nameShort": "Galt",
-      "type": "alt",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20178,9 +20178,9 @@
     },
     "gaug": {
       "id": "gaug",
-      "name": "G aug",
+      "name": "G Augmented",
       "nameShort": "Gaug",
-      "type": "aug",
+      "type": { "id": "aug", "name": "Augmented" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20226,9 +20226,9 @@
     },
     "gaug7": {
       "id": "gaug7",
-      "name": "G aug7",
+      "name": "G ",
       "nameShort": "Gaug7",
-      "type": "aug7",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20270,9 +20270,9 @@
     },
     "gaug9": {
       "id": "gaug9",
-      "name": "G aug9",
+      "name": "G ",
       "nameShort": "Gaug9",
-      "type": "aug9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20314,9 +20314,9 @@
     },
     "gdim": {
       "id": "gdim",
-      "name": "G dim",
+      "name": "G Diminished",
       "nameShort": "Gdim",
-      "type": "dim",
+      "type": { "id": "dim", "name": "Diminished" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20362,9 +20362,9 @@
     },
     "gdim7": {
       "id": "gdim7",
-      "name": "G dim7",
+      "name": "G Diminished 7th",
       "nameShort": "Gdim7",
-      "type": "dim7",
+      "type": { "id": "dim7", "name": "Diminished 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20411,9 +20411,9 @@
     },
     "gm11": {
       "id": "gm11",
-      "name": "G m11",
+      "name": "G Minor 11th",
       "nameShort": "Gm11",
-      "type": "m11",
+      "type": { "id": "m11", "name": "Minor 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20462,9 +20462,9 @@
     },
     "gm6": {
       "id": "gm6",
-      "name": "G m6",
+      "name": "G Minor 6th",
       "nameShort": "Gm6",
-      "type": "m6",
+      "type": { "id": "m6", "name": "Minor 6th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20511,9 +20511,9 @@
     },
     "gm69": {
       "id": "gm69",
-      "name": "G m69",
+      "name": "G ",
       "nameShort": "Gm69",
-      "type": "m69",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20555,9 +20555,9 @@
     },
     "gm7": {
       "id": "gm7",
-      "name": "G m7",
+      "name": "G Minor 7th",
       "nameShort": "Gm7",
-      "type": "m7",
+      "type": { "id": "m7", "name": "Minor 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20604,9 +20604,9 @@
     },
     "gm7b5": {
       "id": "gm7b5",
-      "name": "G m7b5",
+      "name": "G Minor 7th Flat 5th",
       "nameShort": "Gm7b5",
-      "type": "m7b5",
+      "type": { "id": "m7b5", "name": "Minor 7th Flat 5th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20653,9 +20653,9 @@
     },
     "gm9": {
       "id": "gm9",
-      "name": "G m9",
+      "name": "G Minor 9th",
       "nameShort": "Gm9",
-      "type": "m9",
+      "type": { "id": "m9", "name": "Minor 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20703,9 +20703,9 @@
     },
     "gmadd9": {
       "id": "gmadd9",
-      "name": "G madd9",
+      "name": "G ",
       "nameShort": "Gmadd9",
-      "type": "madd9",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20747,9 +20747,9 @@
     },
     "gmaj11": {
       "id": "gmaj11",
-      "name": "G maj11",
+      "name": "G Major 11th",
       "nameShort": "Gmaj11",
-      "type": "maj11",
+      "type": { "id": "maj11", "name": "Major 11th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20798,9 +20798,9 @@
     },
     "gmaj13": {
       "id": "gmaj13",
-      "name": "G maj13",
+      "name": "G ",
       "nameShort": "Gmaj13",
-      "type": "maj13",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20842,9 +20842,9 @@
     },
     "gmaj7": {
       "id": "gmaj7",
-      "name": "G maj7",
+      "name": "G Major 7th",
       "nameShort": "Gmaj7",
-      "type": "maj7",
+      "type": { "id": "maj7", "name": "Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20891,9 +20891,9 @@
     },
     "gmaj7#5": {
       "id": "gmaj7#5",
-      "name": "G maj7#5",
+      "name": "G 7th Sharp 5",
       "nameShort": "Gmaj7#5",
-      "type": "maj7#5",
+      "type": { "id": "maj7#5", "name": "7th Sharp 5" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -20940,9 +20940,9 @@
     },
     "gmaj7b5": {
       "id": "gmaj7b5",
-      "name": "G maj7b5",
+      "name": "G ",
       "nameShort": "Gmaj7b5",
-      "type": "maj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -20984,9 +20984,9 @@
     },
     "gmaj9": {
       "id": "gmaj9",
-      "name": "G maj9",
+      "name": "G Major 9th",
       "nameShort": "Gmaj9",
-      "type": "maj9",
+      "type": { "id": "maj9", "name": "Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -21034,9 +21034,9 @@
     },
     "gmajor": {
       "id": "gmajor",
-      "name": "G major",
+      "name": "G Major",
       "nameShort": "G",
-      "type": "major",
+      "type": { "id": "major", "name": "Major" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -21082,9 +21082,9 @@
     },
     "gminor": {
       "id": "gminor",
-      "name": "G minor",
+      "name": "G Minor",
       "nameShort": "Gm",
-      "type": "minor",
+      "type": { "id": "minor", "name": "Minor" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -21130,9 +21130,9 @@
     },
     "gmmaj11": {
       "id": "gmmaj11",
-      "name": "G mmaj11",
+      "name": "G ",
       "nameShort": "Gmmaj11",
-      "type": "mmaj11",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -21174,9 +21174,9 @@
     },
     "gmmaj7": {
       "id": "gmmaj7",
-      "name": "G mmaj7",
+      "name": "G Minor Major 7th",
       "nameShort": "Gmmaj7",
-      "type": "mmaj7",
+      "type": { "id": "mmaj7", "name": "Minor Major 7th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -21223,9 +21223,9 @@
     },
     "gmmaj7b5": {
       "id": "gmmaj7b5",
-      "name": "G mmaj7b5",
+      "name": "G ",
       "nameShort": "Gmmaj7b5",
-      "type": "mmaj7b5",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -21267,9 +21267,9 @@
     },
     "gmmaj9": {
       "id": "gmmaj9",
-      "name": "G mmaj9",
+      "name": "G Minor Major 9th",
       "nameShort": "Gmmaj9",
-      "type": "mmaj9",
+      "type": { "id": "mmaj9", "name": "Minor Major 9th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -21317,9 +21317,9 @@
     },
     "gsus2": {
       "id": "gsus2",
-      "name": "G sus2",
+      "name": "G Suspended 2nd",
       "nameShort": "Gsus2",
-      "type": "sus2",
+      "type": { "id": "sus2", "name": "Suspended 2nd" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [
@@ -21365,9 +21365,9 @@
     },
     "gsus2sus4": {
       "id": "gsus2sus4",
-      "name": "G sus2sus4",
+      "name": "G ",
       "nameShort": "Gsus2sus4",
-      "type": "sus2sus4",
+      "type": { "id": "", "name": "" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [],
@@ -21417,9 +21417,9 @@
     },
     "gsus4": {
       "id": "gsus4",
-      "name": "G sus4",
+      "name": "G Suspended 4th",
       "nameShort": "Gsus4",
-      "type": "sus4",
+      "type": { "id": "sus4", "name": "Suspended 4th" },
       "alternativeNames": null,
       "abbrevation": null,
       "notes": [

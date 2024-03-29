@@ -4,7 +4,7 @@ type Chord struct {
 	Id               string                   `json:"id"`
 	Name             string                   `json:"name"`
 	NameShort        string                   `json:"nameShort"`
-	Type             string                   `json:"type"`
+	Type             ChordType                `json:"type"`
 	AlternativeNames map[Language][]string    `json:"alternativeNames"`
 	Abbreviation     map[Language][]string    `json:"abbrevation"`
 	Notes            []Note                   `json:"notes"`

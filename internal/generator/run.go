@@ -15,16 +15,16 @@ func Run(runner model.Runner) error {
 		return err
 	}
 
+	chordTypes := Types(runner.LanguageImport.Types)
 	chordsMap := ChordsAsMap(CreateChordParams{
 		chordsDbImport,
 		chordRocksImport,
+		chordTypes,
 	})
-
-	types := Types(runner.LanguageImport.Types)
 
 	infernote := model.Infernote{
 		Language: runner.LanguageImport.Language,
-		Types:    types,
+		Types:    chordTypes,
 		Chords:   chordsMap,
 	}
 
