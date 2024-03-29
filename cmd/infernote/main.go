@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/demonyze/infernote/internal/constants"
+	"github.com/demonyze/infernote/internal/fetcher"
 	"github.com/demonyze/infernote/internal/generator"
 	"github.com/demonyze/infernote/internal/model"
 	"github.com/demonyze/infernote/internal/utils"
@@ -23,14 +25,26 @@ func main() {
 
 	fmt.Println("🔥 Generating chords... 🎵")
 
+	fmt.Println("Importing embedded chords-db data...")
 	chordsDBData, errs := chordsDBImport.ReadFile("chords-db/guitar.json")
 	if errs != nil {
 		panic(errs)
 	}
+	fmt.Println("✅ Successfully imported embedded chords-db data")
+
+	fmt.Println("Importing embedded chord.rocks data...")
 	chordRocksImport, errs := chordRocksImport.ReadFile("greed/greed.json")
 	if errs != nil {
 		panic(errs)
 	}
+	fmt.Println("✅ Successfully imported embedded chord.rocks data")
+
+	fmt.Println("Fetching language...")
+	languageImport, errs := fetcher.GetLanguage(params.Language, constants.URL_GITHUB_LANG)
+	if errs != nil {
+		panic(errs)
+	}
+	fmt.Println("✅ Successfully fetched language from ", constants.URL_GITHUB_LANG)
 
 	// Importer
 	chordRocksGuitarImporter := model.Import[model.ChordRocksGuitarImport]{
@@ -38,9 +52,6 @@ func main() {
 	}
 	chordDbGuitarImporter := model.Import[model.ChordsDbGuitarImport]{
 		Data: chordsDBData,
-	}
-	languageImporter := model.Import[model.LanguageImport]{
-		Path: fmt.Sprintf("lang/%s.json", params.Language),
 	}
 
 	// Exporter
@@ -50,9 +61,9 @@ func main() {
 	}
 
 	runner := model.Runner{
+		LanguageImport:           languageImport,
 		ChordsDbGuitarImporter:   chordDbGuitarImporter,
 		ChordRocksGuitarImporter: chordRocksGuitarImporter,
-		LanguageImporter:         languageImporter,
 
 		InfernoteExporter: exporter,
 	}
