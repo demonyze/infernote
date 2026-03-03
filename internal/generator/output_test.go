@@ -54,6 +54,27 @@ func TestChordsAsMap(t *testing.T) {
 	assert.Contains(t, chordsMap, "dmin", "Key not found in the chords map")
 }
 
+func TestMapChordsDbNote(t *testing.T) {
+	tests := []struct {
+		note     model.Note
+		expected string
+	}{
+		{model.Note{Name: "A#", AlternativeName: "Bb"}, "Bb"},
+		{model.Note{Name: "C#", AlternativeName: "Db"}, "Csharp"},
+		{model.Note{Name: "D#", AlternativeName: "Eb"}, "Eb"},
+		{model.Note{Name: "F#", AlternativeName: "Gb"}, "Fsharp"},
+		{model.Note{Name: "G#", AlternativeName: "Ab"}, "Ab"},
+		{model.Note{Name: "C"}, "C"},
+		{model.Note{Name: "F"}, "F"},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.note.Name, func(t *testing.T) {
+			assert.Equal(t, tt.expected, mapChordsDbNote(tt.note))
+		})
+	}
+}
+
 func TestTypes(t *testing.T) {
 
 	var typesData map[string]string = map[string]string{

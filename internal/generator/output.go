@@ -61,11 +61,17 @@ func Types(data map[string]string) map[string]model.ChordType {
 }
 
 func mapChordsDbNote(note model.Note) string {
-	n := []string{"A#", "D#", "G#"}
-	for _, key := range n {
-		if note.Name == key {
-			return note.AlternativeName
-		}
+	switch note.Name {
+	case "A#":
+		return note.AlternativeName // "Bb"
+	case "D#":
+		return note.AlternativeName // "Eb"
+	case "G#":
+		return note.AlternativeName // "Ab"
+	case "C#":
+		return "Csharp"
+	case "F#":
+		return "Fsharp"
 	}
 	return note.Name
 }
