@@ -1,7 +1,7 @@
 package model
 
 type Runner struct {
-	LanguageImport LanguageImport
+	LanguageImports []LanguageImport
 
 	// -- Importer --
 

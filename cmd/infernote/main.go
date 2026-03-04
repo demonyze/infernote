@@ -39,12 +39,12 @@ func main() {
 	}
 	fmt.Println("✅ Successfully imported embedded chord.rocks data")
 
-	fmt.Println("Fetching language...")
-	languageImport, errs := fetcher.GetLanguage(params.Language, constants.URL_GITHUB_LANG)
+	fmt.Println("Fetching languages...")
+	languageImports, errs := fetcher.GetLanguages(params.Languages, constants.URL_GITHUB_LANG)
 	if errs != nil {
 		panic(errs)
 	}
-	fmt.Println("✅ Successfully fetched language from ", constants.URL_GITHUB_LANG)
+	fmt.Println("✅ Successfully fetched languages from ", constants.URL_GITHUB_LANG)
 
 	// Importer
 	chordRocksGuitarImporter := model.Import[model.ChordRocksGuitarImport]{
@@ -61,7 +61,7 @@ func main() {
 	}
 
 	runner := model.Runner{
-		LanguageImport:           languageImport,
+		LanguageImports:          languageImports,
 		ChordsDbGuitarImporter:   chordDbGuitarImporter,
 		ChordRocksGuitarImporter: chordRocksGuitarImporter,
 

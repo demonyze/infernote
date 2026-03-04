@@ -11,22 +11,30 @@ import (
 type CreateChordParams struct {
 	chordsDbImport   model.ChordsDbGuitarImport
 	chordRocksImport model.ChordRocksGuitarImport
-	chordTypes       map[string]model.ChordType
+	languageImports  []model.LanguageImport
 }
 
 func createChord(
 	chordsDbChord model.ChordsDbGuitarChord,
 	chordsRockChord model.ChordRocksGuitarChord,
 	note model.Note,
-	chordType model.ChordType,
+	suffix string,
+	languageImports []model.LanguageImport,
 ) model.Chord {
+	lang := make(map[string]model.ChordLang)
+	for _, imp := range languageImports {
+		typeName := imp.Types[suffix]
+		lang[imp.Language] = model.ChordLang{
+			Name: fmt.Sprintf("%s %s", note.Name, typeName),
+			Type: typeName,
+		}
+	}
 	return model.Chord{
 		Id:              utils.CreateId(note.Name, chordsDbChord.Suffix),
-		Name:            fmt.Sprintf("%s %s", note.Name, chordType.Name),
 		NameShort:       fmt.Sprintf("%s%s", note.Name, utils.AlternateSuffix(chordsDbChord.Suffix)),
 		GuitarPositions: chordsDbChord.Positions,
 		Root:            note,
-		Type:            chordType,
+		Lang:            lang,
 		Notes:           utils.NotesfromStringNames(chordsRockChord.Notes),
 	}
 }
@@ -42,19 +50,24 @@ func ChordsAsMap(params CreateChordParams) map[string]model.Chord {
 				chordsDbChord,
 				chordRocksChord,
 				note,
-				params.chordTypes[chordsDbChord.Suffix],
+				chordsDbChord.Suffix,
+				params.languageImports,
 			)
 		}
 	}
 	return chords
 }
 
-func Types(data map[string]string) map[string]model.ChordType {
+func Types(imports []model.LanguageImport) map[string]model.ChordType {
 	types := make(map[string]model.ChordType)
-	for key, value := range data {
-		types[key] = model.ChordType{
-			Id:   key,
-			Name: value,
+	for _, imp := range imports {
+		for id, name := range imp.Types {
+			ct, exists := types[id]
+			if !exists {
+				ct = model.ChordType{Id: id, Lang: make(map[string]string)}
+			}
+			ct.Lang[imp.Language] = name
+			types[id] = ct
 		}
 	}
 	return types

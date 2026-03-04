@@ -1,6 +1,6 @@
 package model
 
 type ChordType struct {
-	Id   string `json:"id"`
-	Name string `json:"name"`
+	Id   string            `json:"id"`
+	Lang map[string]string `json:"lang"`
 }

@@ -8,7 +8,7 @@ import (
 )
 
 func GetLanguage(lang string, url string) (model.LanguageImport, error) {
-	var supportedLanguages = [1]string{"en"}
+	var supportedLanguages = [2]string{"en", "de"}
 
 	var isSupportedLanguage bool
 	for _, supported := range supportedLanguages {
@@ -30,4 +30,16 @@ func GetLanguage(lang string, url string) (model.LanguageImport, error) {
 	}
 
 	return languageImport, nil
+}
+
+func GetLanguages(langs []string, url string) ([]model.LanguageImport, error) {
+	imports := make([]model.LanguageImport, 0, len(langs))
+	for _, lang := range langs {
+		imp, err := GetLanguage(lang, url)
+		if err != nil {
+			return nil, err
+		}
+		imports = append(imports, imp)
+	}
+	return imports, nil
 }

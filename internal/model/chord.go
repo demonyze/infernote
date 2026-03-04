@@ -1,13 +1,15 @@
 package model
 
+type ChordLang struct {
+	Name string `json:"name"`
+	Type string `json:"type"`
+}
+
 type Chord struct {
-	Id               string                   `json:"id"`
-	Name             string                   `json:"name"`
-	NameShort        string                   `json:"nameShort"`
-	Type             ChordType                `json:"type"`
-	AlternativeNames map[Language][]string    `json:"alternativeNames"`
-	Abbreviation     map[Language][]string    `json:"abbrevation"`
-	Notes            []Note                   `json:"notes"`
-	Root             Note                     `json:"root"`
-	GuitarPositions  []ChordsDbGuitarPosition `json:"guitarPositions"`
+	Id              string                   `json:"id"`
+	NameShort       string                   `json:"nameShort"`
+	Lang            map[string]ChordLang     `json:"lang"`
+	Notes           []Note                   `json:"notes"`
+	Root            Note                     `json:"root"`
+	GuitarPositions []ChordsDbGuitarPosition `json:"guitarPositions"`
 }

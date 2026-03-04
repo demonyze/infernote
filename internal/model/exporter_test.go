@@ -17,17 +17,17 @@ func TestExport(t *testing.T) {
 	defer os.RemoveAll(tmpDir)
 
 	testData := Infernote{
-		Language: EN,
+		Languages: []string{EN},
 		Types: map[string]ChordType{
 			"maj": {
 				Id:   "maj",
-				Name: "Major",
+				Lang: map[string]string{"en": "Major"},
 			},
 		},
 		Chords: map[string]Chord{
 			"cmaj": {
 				Id:   "cmaj",
-				Name: "C Major",
+				Lang: map[string]ChordLang{"en": {Name: "C Major", Type: "Major"}},
 			},
 		},
 	}

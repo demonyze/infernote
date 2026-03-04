@@ -45,6 +45,7 @@ func TestChordsAsMap(t *testing.T) {
 	params := CreateChordParams{
 		chordsDbImport:   chordsDbImport,
 		chordRocksImport: chordRocksImport,
+		languageImports:  []model.LanguageImport{},
 	}
 
 	// Test the ChordsAsMap function
@@ -76,21 +77,48 @@ func TestMapChordsDbNote(t *testing.T) {
 }
 
 func TestTypes(t *testing.T) {
+	t.Run("Single language", func(t *testing.T) {
+		imports := []model.LanguageImport{
+			{
+				Language: "en",
+				Types: map[string]string{
+					"major": "Major",
+					"minor": "Minor",
+					"5":     "5th",
+					"7":     "7th",
+				},
+			},
+		}
 
-	var typesData map[string]string = map[string]string{
-		"major": "Major",
-		"minor": "Minor",
-		"5":     "5th",
-		"7":     "7th",
-	}
+		expected := map[string]model.ChordType{
+			"major": {Id: "major", Lang: map[string]string{"en": "Major"}},
+			"minor": {Id: "minor", Lang: map[string]string{"en": "Minor"}},
+			"5":     {Id: "5", Lang: map[string]string{"en": "5th"}},
+			"7":     {Id: "7", Lang: map[string]string{"en": "7th"}},
+		}
 
-	expected := map[string]model.ChordType{
-		"major": {Id: "major", Name: "Major"},
-		"minor": {Id: "minor", Name: "Minor"},
-		"5":     {Id: "5", Name: "5th"},
-		"7":     {Id: "7", Name: "7th"},
-	}
+		result := Types(imports)
+		assert.Equal(t, expected, result)
+	})
 
-	result := Types(typesData)
-	assert.Equal(t, expected, result)
+	t.Run("Multiple languages", func(t *testing.T) {
+		imports := []model.LanguageImport{
+			{
+				Language: "en",
+				Types:    map[string]string{"major": "Major", "minor": "Minor"},
+			},
+			{
+				Language: "de",
+				Types:    map[string]string{"major": "Dur", "minor": "Moll"},
+			},
+		}
+
+		result := Types(imports)
+
+		assert.Equal(t, "major", result["major"].Id)
+		assert.Equal(t, "Major", result["major"].Lang["en"])
+		assert.Equal(t, "Dur", result["major"].Lang["de"])
+		assert.Equal(t, "Minor", result["minor"].Lang["en"])
+		assert.Equal(t, "Moll", result["minor"].Lang["de"])
+	})
 }

@@ -12,9 +12,9 @@ func TestGetParams(t *testing.T) {
 	t.Run("Success with all params", func(t *testing.T) {
 		args := []string{"--lang=de", "--name=chords.json", "--path=mypath"}
 		expectedParams := model.InfernoteParams{
-			Language: "de",
-			FileName: "chords.json",
-			FilePath: "mypath",
+			Languages: []string{"de"},
+			FileName:  "chords.json",
+			FilePath:  "mypath",
 		}
 		params := GetParams(args)
 		assert.Equal(t, expectedParams, params)
@@ -22,9 +22,9 @@ func TestGetParams(t *testing.T) {
 	t.Run("Success with some params", func(t *testing.T) {
 		args := []string{"--lang=de", "--namechords.json", "--path=mypath"}
 		expectedParams := model.InfernoteParams{
-			Language: "de",
-			FileName: constants.FileName,
-			FilePath: "mypath",
+			Languages: []string{"de"},
+			FileName:  constants.FileName,
+			FilePath:  "mypath",
 		}
 		params := GetParams(args)
 		assert.Equal(t, expectedParams, params)
@@ -32,9 +32,19 @@ func TestGetParams(t *testing.T) {
 	t.Run("Success with no params", func(t *testing.T) {
 		args := []string{}
 		expectedParams := model.InfernoteParams{
-			Language: constants.Language,
-			FileName: constants.FileName,
-			FilePath: constants.FilePath,
+			Languages: []string{constants.Language},
+			FileName:  constants.FileName,
+			FilePath:  constants.FilePath,
+		}
+		params := GetParams(args)
+		assert.Equal(t, expectedParams, params)
+	})
+	t.Run("Success with multiple languages", func(t *testing.T) {
+		args := []string{"--lang=en,de"}
+		expectedParams := model.InfernoteParams{
+			Languages: []string{"en", "de"},
+			FileName:  constants.FileName,
+			FilePath:  constants.FilePath,
 		}
 		params := GetParams(args)
 		assert.Equal(t, expectedParams, params)
