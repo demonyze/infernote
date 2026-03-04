@@ -19,24 +19,30 @@ infernote
 ## Parameters
 
 ```bash
---lang=de # select output language - defaults to "en"
---name=chords.json # output json filename - defaults to "infernote.json"
---path=my_dir # output path - defaults to "output"
+--lang=en,de  # select output languages (comma-separated) - defaults to "en"
+--name=chords.json  # output json filename - defaults to "infernote.json"
+--path=my_dir  # output path - defaults to "output"
 ```
 
 ### Language Support
 
-By default all data will be generated in english.
-This can be changed by providing the `lang` parameter in the generate command:
+By default all data is generated in English. The output embeds all requested languages in a single file under a `lang` map keyed by language code. Pass multiple languages as a comma-separated list:
 
 ```bash
-infernote --lang=de
+infernote --lang=en
+infernote --lang=en,de
 ```
+
+The output `languages` array reflects which languages were requested. Each chord and type carries a `lang` map so consumers can pick their preferred language at runtime without re-generating the file.
 
 All supported languages can be found in the `/lang` directory.
 
 > [!NOTE]
 > Feel free to add new language files or update existing ones via pull requests.
+
+## Output
+
+See [docs/output.md](docs/output.md) for the full output schema and examples.
 
 ### Credit
 

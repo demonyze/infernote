@@ -11,9 +11,9 @@ import (
 
 func GetParams(args []string) model.InfernoteParams {
 	params := model.InfernoteParams{
-		Language: constants.Language,
-		FileName: constants.FileName,
-		FilePath: constants.FilePath,
+		Languages: []string{constants.Language},
+		FileName:  constants.FileName,
+		FilePath:  constants.FilePath,
 	}
 
 	for _, arg := range args {
@@ -25,7 +25,7 @@ func GetParams(args []string) model.InfernoteParams {
 		switch namedParam.Key {
 
 		case "lang":
-			params.Language = namedParam.Value
+			params.Languages = strings.Split(namedParam.Value, ",")
 
 		case "name":
 			params.FileName = namedParam.Value

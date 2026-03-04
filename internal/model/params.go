@@ -6,7 +6,7 @@ type NamedParam struct {
 }
 
 type InfernoteParams struct {
-	Language string
-	FileName string
-	FilePath string
+	Languages []string
+	FileName  string
+	FilePath  string
 }

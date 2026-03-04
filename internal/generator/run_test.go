@@ -115,7 +115,7 @@ func TestRun(t *testing.T) {
 
 	t.Run("Successful Run", func(t *testing.T) {
 		runner := model.Runner{
-			LanguageImport:           languageImport,
+			LanguageImports:          []model.LanguageImport{languageImport},
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			InfernoteExporter:        exporterSuccess,
@@ -126,7 +126,7 @@ func TestRun(t *testing.T) {
 
 	t.Run("Error Runs", func(t *testing.T) {
 		runner1 := model.Runner{
-			LanguageImport:           languageImport,
+			LanguageImports:          []model.LanguageImport{languageImport},
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			ChordsDbGuitarImporter:   chordDbGuitarImporterError,
 		}
@@ -134,7 +134,7 @@ func TestRun(t *testing.T) {
 		assert.Error(t, err1, "Expected error")
 
 		runner2 := model.Runner{
-			LanguageImport:           languageImport,
+			LanguageImports:          []model.LanguageImport{languageImport},
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			InfernoteExporter:        exporterError,
@@ -143,7 +143,7 @@ func TestRun(t *testing.T) {
 		assert.Error(t, err2, "Expected error")
 
 		runner3 := model.Runner{
-			LanguageImport:           languageImport,
+			LanguageImports:          []model.LanguageImport{languageImport},
 			ChordsDbGuitarImporter:   chordDbGuitarImporterError,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterError,
 			InfernoteExporter:        exporterSuccess,
@@ -152,7 +152,7 @@ func TestRun(t *testing.T) {
 		assert.Error(t, err3, "Expected error")
 
 		runner4 := model.Runner{
-			LanguageImport:           languageImport,
+			LanguageImports:          []model.LanguageImport{languageImport},
 			ChordsDbGuitarImporter:   chordDbGuitarImporterSuccess,
 			ChordRocksGuitarImporter: chordRocksGuitarImporterSuccess,
 			InfernoteExporter:        exporterError,

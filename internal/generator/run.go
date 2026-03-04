@@ -15,17 +15,22 @@ func Run(runner model.Runner) error {
 		return err
 	}
 
-	chordTypes := Types(runner.LanguageImport.Types)
+	chordTypes := Types(runner.LanguageImports)
 	chordsMap := ChordsAsMap(CreateChordParams{
 		chordsDbImport,
 		chordRocksImport,
-		chordTypes,
+		runner.LanguageImports,
 	})
 
+	languages := make([]string, 0, len(runner.LanguageImports))
+	for _, imp := range runner.LanguageImports {
+		languages = append(languages, imp.Language)
+	}
+
 	infernote := model.Infernote{
-		Language: runner.LanguageImport.Language,
-		Types:    chordTypes,
-		Chords:   chordsMap,
+		Languages: languages,
+		Types:     chordTypes,
+		Chords:    chordsMap,
 	}
 
 	exportError := runner.InfernoteExporter.Export(infernote)
