@@ -8,7 +8,7 @@ import (
 )
 
 func GetLanguage(lang string, url string) (model.LanguageImport, error) {
-	var supportedLanguages = [1]string{"en"}
+	var supportedLanguages = [2]string{"en", "de"}
 
 	var isSupportedLanguage bool
 	for _, supported := range supportedLanguages {

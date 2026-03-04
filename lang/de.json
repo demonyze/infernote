@@ -1,0 +1,31 @@
+{
+  "language": "de",
+  "types": {
+    "major": "Dur",
+    "minor": "Moll",
+    "5": "Powerchord",
+    "7": "Dominantseptakkord",
+    "maj7": "Dur-Major-Septakkord",
+    "m7": "Mollseptakkord",
+    "m7b5": "Halbverminderter Septakkord",
+    "dim": "Verminderter Dreiklang",
+    "dim7": "Verminderter Septakkord",
+    "aug": "Übermäßiger Dreiklang",
+    "6": "Dur-Sextakkord",
+    "m6": "Moll-Sextakkord",
+    "9": "Dominant-Nonenakkord",
+    "maj9": "Dur-Major-Nonenakkord",
+    "m9": "Moll-Nonenakkord",
+    "69": "Dur-Sechste-None-Akkord",
+    "11": "Undezimenakkord",
+    "m11": "Moll-Undezimenakkord",
+    "maj11": "Dur-Major-Undezimenakkord",
+    "sus2": "Sus2-Akkord",
+    "sus4": "Sus4-Akkord",
+    "7sus4": "Dominantseptakkord mit Sus4",
+    "7b5": "Dominantseptakkord mit verminderter Quinte",
+    "maj7#5": "Dur-Major-Septakkord mit übermäßiger Quinte",
+    "mmaj7": "Moll-Major-Septakkord",
+    "mmaj9": "Moll-Major-Nonenakkord"
+  }
+}
