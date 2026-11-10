@@ -52,6 +52,8 @@ The output is a single self-contained JSON file. All requested languages are emb
 | `baseFret` | `int`     | Starting fret of the position diagram        |
 | `midi`     | `int[]`   | MIDI note numbers for the sounding strings   |
 
+Positions come from chords-db. For `major`, `minor`, `7`, `m7` and `maj7` chords the five CAGED shapes are generated as well and merged in (skipping shapes that chords-db already contains, even as a partial voicing). The chords-db positions keep their original order; generated shapes follow, sorted by `baseFret`.
+
 ---
 
 ### Example — single language (`--lang=en`)
