@@ -55,6 +55,33 @@ func TestChordsAsMap(t *testing.T) {
 	assert.Contains(t, chordsMap, "dmin", "Key not found in the chords map")
 }
 
+func TestChordsAsMapAppendsCagedShapes(t *testing.T) {
+	existing := model.ChordsDbGuitarPosition{Frets: []int{-1, 3, 2, 0, 1, 0}, BaseFret: 1}
+	params := CreateChordParams{
+		chordsDbImport: model.ChordsDbGuitarImport{
+			Keys: []string{"C"},
+			Chords: map[string][]model.ChordsDbGuitarChord{
+				"C": {
+					{Key: "C", Suffix: "major", Positions: []model.ChordsDbGuitarPosition{existing}},
+					{Key: "C", Suffix: "9", Positions: []model.ChordsDbGuitarPosition{existing}},
+				},
+			},
+		},
+		chordRocksImport: model.ChordRocksGuitarImport{},
+		languageImports:  []model.LanguageImport{},
+	}
+
+	chordsMap := ChordsAsMap(params)
+
+	t.Run("CAGED suffix gains the shapes it does not already have", func(t *testing.T) {
+		assert.Len(t, chordsMap["cmajor"].GuitarPositions, 5)
+		assert.Equal(t, existing, chordsMap["cmajor"].GuitarPositions[0])
+	})
+	t.Run("other suffixes keep their chords-db positions", func(t *testing.T) {
+		assert.Equal(t, []model.ChordsDbGuitarPosition{existing}, chordsMap["c9"].GuitarPositions)
+	})
+}
+
 func TestMapChordsDbNote(t *testing.T) {
 	tests := []struct {
 		note     model.Note

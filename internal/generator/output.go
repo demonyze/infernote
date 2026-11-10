@@ -32,7 +32,7 @@ func createChord(
 	return model.Chord{
 		Id:              utils.CreateId(note.Name, chordsDbChord.Suffix),
 		NameShort:       fmt.Sprintf("%s%s", note.Name, utils.AlternateSuffix(chordsDbChord.Suffix)),
-		GuitarPositions: chordsDbChord.Positions,
+		GuitarPositions: AppendNewVoicings(chordsDbChord.Positions, CagedPositions(note.Name, suffix)),
 		Root:            note,
 		Lang:            lang,
 		Notes:           utils.NotesfromStringNames(chordsRockChord.Notes),
